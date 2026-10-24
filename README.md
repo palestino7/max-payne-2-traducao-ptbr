@@ -4,7 +4,7 @@
 
 # 🇧🇷 Max Payne 2 — Tradução Definitiva PT-BR (v3.0.0)
 
-**A localização mais completa e autêntica de *Max Payne 2: The Fall of Max Payne* para Português do Brasil. Inclui 138 páginas de Graphic Novels traduzidas diretamente nos balões, 32 telas de carregamento e menus, vídeo de abertura dublado, HUD em alta resolução e instalador seguro.**
+**A tradução mais completa e definitiva de *Max Payne 2: The Fall of Max Payne* para Português do Brasil. Inclui 138 páginas de Graphic Novels traduzidas diretamente nos quadrinhos, 32 telas de carregamento e menus, vídeo de introdução legendado, HUD de armas em alta definição e instalador 100% seguro.**
 
 *Desenvolvido e revisado por **[palestino7](https://github.com/palestino7)***
 
@@ -55,7 +55,7 @@ Diálogos, transmissões de rádio, menus de ajuda e seletores de armas totalmen
 ## 🛡️ Destaques da Versão 3.0.0
 
 - **Instalador Seguro:** Construído em Inno Setup nativo, livre de falsos-positivos no Windows Defender e Chrome.
-- **Vídeo Recap Dublado:** Vídeo de abertura cinematográfico integrado com fidelidade.
+- **Vídeo de Introdução Legendado:** Cutscene cinematográfica "Anteriormente..." com áudio original e legendas perfeitamente sincronizadas.
 - **Correção de Áudio:** Patch de engine (`sndmfc.dll`) para manter legendas ativas em qualquer volume.
 - **Widescreen Fix:** Suporte automático a resoluções modernas (Full HD/4K) e controles Xbox.
 
@@ -85,6 +85,6 @@ No menu principal, acesse <b>Opções → Jogo → Legendas: Ligadas</b> (ou ape
 
 ## 👤 Créditos
 
-- **Localização, Edição Gráfica e Instalador:** [**palestino7**](https://github.com/palestino7)
+- **Tradução, Edição Gráfica e Instalador:** [**palestino7**](https://github.com/palestino7)
 - **Widescreen Fix:** ThirteenAG e samuelgr.
 - **Max Payne 2: The Fall of Max Payne** © Remedy Entertainment & Rockstar Games. Projeto sem fins lucrativos feito de fã para fãs.
