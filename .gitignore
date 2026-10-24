@@ -1,0 +1,8 @@
+# Backups and temporary build artifacts
+*.bak
+*.tmp
+*.log
+__pycache__/
+*.pyc
+build/
+temp_*/

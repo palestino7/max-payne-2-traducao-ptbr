@@ -1,0 +1,78 @@
+[HUDPRINT_SURVIVAL_KILL]			String = "+2 seg";
+[HUDPRINT_PICKUP_BERETTA_AMMO]		String = "Munição de Pistola 9mm";
+[HUDPRINT_PICKUP_DESERTEAGLE_AMMO]	String = "Munição de Desert Eagle";
+[HUDPRINT_PICKUP_SHOTGUN_AMMO]		String = "Munição de Escopeta";
+[HUDPRINT_PICKUP_STRIKER_AMMO]		String = "Munição de Striker";
+[HUDPRINT_PICKUP_INGRAM_AMMO]		String = "Munição de Ingram";
+[HUDPRINT_PICKUP_MP5_AMMO]			String = "Munição de MP5";
+[HUDPRINT_PICKUP_KALASHNIKOV_AMMO]	String = "Munição de Kalashnikov";
+[HUDPRINT_PICKUP_COLTCOMMANDO_AMMO]	String = "Munição de Carabina M4";
+[HUDPRINT_PICKUP_SNIPER_AMMO]     	String = "Munição de Fuzil de Precisão";
+[HUDPRINT_PICKUP_DRAGUNOV_AMMO]    	String = "Munição de Dragunov";
+
+[HUDPRINT_PICKUP_BERETTA]			String = "Pistola 9mm";
+[HUDPRINT_PICKUP_BERETTADUAL]		String = "Pistolas 9mm Duplas";
+[HUDPRINT_PICKUP_DESERTEAGLE]		String = "Desert Eagle";
+[HUDPRINT_PICKUP_SAWEDSHOTGUN]		String = "Escopeta de Cano Serrado";
+[HUDPRINT_PICKUP_PUMPSHOTGUN]		String = "Escopeta Pump-Action";
+[HUDPRINT_PICKUP_STRIKER]			String = "Striker";
+[HUDPRINT_PICKUP_INGRAM]			String = "Ingram";
+[HUDPRINT_PICKUP_INGRAMDUAL]		String = "Ingrams Duplas";
+[HUDPRINT_PICKUP_MP5]				String = "MP5";
+[HUDPRINT_PICKUP_KALASHNIKOV]		String = "Kalashnikov";
+[HUDPRINT_PICKUP_COLTCOMMANDO]		String = "Carabina M4";
+[HUDPRINT_PICKUP_SNIPER]		    String = "Fuzil de Precisão";
+[HUDPRINT_PICKUP_DRAGUNOV]		    String = "Dragunov";
+[HUDPRINT_PICKUP_PAINKILLERS]	   	String = "Analgésicos";
+[HUDPRINT_PICKUP_MOLOTOV]			String = "Coquetel Molotov";
+[HUDPRINT_PICKUP_GRENADE]			String = "Granada";
+
+[HUDPRINT_PICKUP_BERETTA_AMMO_FULL]			String = "Munição de 9mm cheia";
+[HUDPRINT_PICKUP_DESERTEAGLE_AMMO_FULL]		String = "Munição de Desert Eagle cheia";
+[HUDPRINT_PICKUP_SHOTGUN_AMMO_FULL]			String = "Munição de Escopeta cheia";
+[HUDPRINT_PICKUP_STRIKER_AMMO_FULL]			String = "Munição de Striker cheia";
+[HUDPRINT_PICKUP_INGRAM_AMMO_FULL]			String = "Munição de Ingram cheia";
+[HUDPRINT_PICKUP_MP5_AMMO_FULL]				String = "Munição de MP5 cheia";
+[HUDPRINT_PICKUP_KALASHNIKOV_AMMO_FULL]		String = "Munição de Kalashnikov cheia";
+[HUDPRINT_PICKUP_COLTCOMMANDO_AMMO_FULL]	String = "Munição de Carabina M4 cheia";
+[HUDPRINT_PICKUP_SNIPER_AMMO_FULL]			String = "Munição de Fuzil de Precisão cheia";
+[HUDPRINT_PICKUP_DRAGUNOV_AMMO_FULL]		String = "Munição de Dragunov cheia";
+[HUDPRINT_PICKUP_PAINKILLERS_FULL]			String = "Analgésicos cheios";
+[HUDPRINT_PICKUP_MOLOTOV_AMMO_FULL]			String = "Coquetéis Molotov cheios";
+[HUDPRINT_PICKUP_GRENADE_AMMO_FULL]			String = "Granadas cheias";
+
+[NoPauseCameraPathText]				String = "Pausado"; 
+[QuickSaveGameDescriptionPrefix]	String = "Rápido: ";
+[AutoSaveGameDescriptionPrefix]		String = "Automático: ";
+[QuickLoadQueryText]				String = "Pressione F9 novamente para Carregamento Rápido, Esc para Cancelar";
+
+[HUDPRINT_PRESS_USE_TO_LOAD]		String = "Pressione a tecla de usar (#USE#) para carregar o último jogo salvo.";
+[HUDPRINT_PRESS_F9_TO_LOAD]			String = "Pressione a tecla de carregamento rápido (F9) para carregar o último jogo salvo.";
+[TIP_PAUSECAMERA]					String = "Dica: Pressione #PAUSE# para desativar o modo de pausa.";
+[TIP_SNIPER]					    String = "Dica: Mantenha pressionada a tecla de usar (#USE#) para aproximar a mira do fuzil de precisão.";
+[TIP_PAINKILLER]					String = "Dica: Pressione #PAINKILLER# para tomar analgésicos e aliviar a dor.";
+[TIP_EXAMINE]						String = "Dica: Pressione a tecla de usar (#USE#) para examinar ou interagir com itens interessantes.";
+[TIP_SHOOTDODGE]					String = "Dica: Pressione a tecla de Salto com Tiro (#DODGEMODIFIER#) e uma direção para executar o Shootdodge.";
+[TIP_BULLETTIME]					String = "Dica: Pressione Bullet Time (#SLOWMOTION#) para entrar em câmera lenta.";
+[TIP_DODGE]							String = "Dica: Pressione #JUMP# e uma tecla de direção para realizar esquivas e rolamentos.";
+
+[STRING_NORMAL_COMPLETED1]			String = "Parabéns! Você concluiu Max Payne 2: The Fall of Max Payne.";
+[STRING_NORMAL_COMPLETED2]			String = "Os modos Homem Morto Andando e Minuto de Nova York, além do";
+[STRING_NORMAL_COMPLETED3]			String = "nível de dificuldade Casca-Grossa, foram desbloqueados para desafios ainda maiores.";
+
+[STRING_NIGHTMARE_COMPLETED1]		String = "Parabéns!";
+[STRING_NIGHTMARE_COMPLETED2]		String = "Você concluiu o modo Casca-Grossa. Agora prepare-se para";
+[STRING_NIGHTMARE_COMPLETED3]		String = "o desafio definitivo no modo Morto ao Chegar.";
+
+[STRING_HELL_COMPLETED1]			String = "Parabéns!";
+[STRING_HELL_COMPLETED2]			String = "Você concluiu o modo Morto ao Chegar —";
+[STRING_HELL_COMPLETED3]			String = "o maior e mais implacável desafio de todos.";
+
+[STRING_NYM_MAP]					String = "Seu tempo atual é: #TOTALTIME#";
+[STRING_NYM_PART1_PAR]				String = "Tempo de referência da Remedy neste ponto: 0:16:19";
+[STRING_NYM_PART2_PAR]				String = "Tempo de referência da Remedy neste ponto: 0:27:41";
+
+[STRING_TIMEDMODE_COMPLETED1]		String = "Parabéns! Minuto de Nova York Concluído —";
+[STRING_TIMEDMODE_COMPLETED2]		String = "Você venceu a corrida implacável contra o relógio.";
+[STRING_TIMEDMODE_COMPLETED3]		String = "Seu tempo total foi de #TOTALTIME#";
+[STRING_TIMEDMODE_COMPLETED4]		String = "Tempo de referência da Remedy: 0:46:29";
