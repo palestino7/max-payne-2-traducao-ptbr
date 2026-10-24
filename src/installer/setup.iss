@@ -45,49 +45,48 @@ UsedUserAreasWarning=no
 UsePreviousSetupType=no
 UsePreviousAppDir=no
 
+VersionInfoVersion=3.0.0.0
+VersionInfoCompany=Palestino7
+VersionInfoDescription=Instalador da Tradução de Max Payne 2 PT-BR
+VersionInfoTextVersion=3.0.0
+VersionInfoCopyright=© 2026 Palestino7
+VersionInfoProductName=Max Payne 2 - Tradução Definitiva PT-BR
+VersionInfoProductVersion=3.0.0.0
+
 [Languages]
 Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
 
 [Messages]
 brazilianportuguese.BeveledLabel=Tradução Definitiva v3.0.0 por Palestino7
 
-[Types]
-Name: "full"; Description: "Instalação Completa Recomendada (Tradução + Vídeo Recap + Correção de Áudio + Widescreen)"
-Name: "compact"; Description: "Instalação Básica (Apenas Tradução dos Textos, Menus, Legendas e Graphic Novels)"
-Name: "custom"; Description: "Instalação Personalizada"; Flags: iscustom
-
-[Components]
-Name: "core"; Description: "Tradução dos Textos, Menus, Legendas e Graphic Novels (Obrigatório)"; Types: full compact custom; Flags: fixed
-Name: "video"; Description: "Cutscene de Introdução ""Anteriormente..."" Legendada (PREVIOUSLY.bik)"; Types: full custom
-Name: "audiofix"; Description: "Correção de Áudio e Falhas Modernas (Patch sndmfc.dll + Registro do Windows)"; Types: full custom
-Name: "widescreen"; Description: "Widescreen Fix (ThirteenAG) + Suporte a Controles Modernos com Esquema em PT-BR"; Types: full custom
-Name: "mp2m"; Description: "Pacote Mod Adicional (MaxPayne2_PTBR.mp2m para o Seletor de Mods)"; Types: full custom
+[Tasks]
+Name: "widescreen"; Description: "Instalar Widescreen Fix (Recomendado para monitores modernos 1080p, 1440p, 4K, Ultrawide e controles Xbox)"; Flags: checkedonce
 
 [Files]
-; Componente 1: Tradução Principal (substitui MP2_English.ras com backup prévio)
-Source: "..\..\MP2_English_PTBR.ras"; DestDir: "{app}"; DestName: "MP2_English.ras"; Flags: ignoreversion uninsneveruninstall; Components: core
-Source: "..\..\Desinstalar_Traducao.bat"; DestDir: "{app}"; Flags: ignoreversion; Components: core
+; 1. Arquivo Principal da Tradução (substitui MP2_English.ras com backup prévio)
+Source: "..\..\MP2_English_PTBR.ras"; DestDir: "{app}"; DestName: "MP2_English.ras"; Flags: ignoreversion uninsneveruninstall
+Source: "..\..\Desinstalar_Traducao.bat"; DestDir: "{app}"; Flags: ignoreversion
 
-; Componente 2: Cutscene Recap Legendada
-Source: "..\..\translation_ptbr\movies\PREVIOUSLY.bik"; DestDir: "{app}\movies"; DestName: "previously.bik"; Flags: ignoreversion uninsneveruninstall; Components: video
+; 2. Cutscene de Introdução "Anteriormente..." Legendada (áudio original + legendas PT-BR)
+Source: "..\..\translation_ptbr\movies\PREVIOUSLY.bik"; DestDir: "{app}\movies"; DestName: "previously.bik"; Flags: ignoreversion uninsneveruninstall
 
-; Componente 3: Correção de Áudio (sndmfc.dll pré-patcheada)
-Source: "assets\sndmfc.dll"; DestDir: "{app}"; Flags: ignoreversion uninsneveruninstall; Components: audiofix
+; 3. Correção de Áudio e Legendas Modernas (Patch de engine sndmfc.dll)
+Source: "assets\sndmfc.dll"; DestDir: "{app}"; Flags: ignoreversion uninsneveruninstall
 
-; Componente 4: Widescreen Fix ThirteenAG + Xidi + Esquema PT-BR
-Source: "assets\widescreen\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: widescreen
+; 4. Pacote Mod Adicional (para quem preferir usar o seletor de mods original)
+Source: "..\..\MaxPayne2_PTBR.mp2m"; DestDir: "{app}"; Flags: ignoreversion
 
-; Componente 5: Pacote Mod Opcional
-Source: "..\..\MaxPayne2_PTBR.mp2m"; DestDir: "{app}"; Flags: ignoreversion; Components: mp2m
+; 5. Widescreen Fix (Opcional - selecionado por padrão)
+Source: "assets\widescreen\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Tasks: widescreen
 
 [Registry]
 ; Ativa exibição de legendas nas opções do Max Payne 2
-Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Other Settings"; ValueType: dword; ValueName: "Subtitles Toggle"; ValueData: "1"; Components: core
+Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Other Settings"; ValueType: dword; ValueName: "Subtitles Toggle"; ValueData: "1"
 ; Reseta seleção de mod no jogo original
-Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Customized Game"; ValueType: string; ValueName: "Customized Game"; ValueData: ""; Components: core
+Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Customized Game"; ValueType: string; ValueName: "Customized Game"; ValueData: ""
 ; Correção de áudio mudo quando volume de efeitos estiver zerado no registro
-Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Audio Settings"; ValueType: dword; ValueName: "Effects Volume"; ValueData: "10000"; Check: IsEffectsVolumeZero; Components: audiofix
-Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Audio Settings"; ValueType: dword; ValueName: "Music Volume"; ValueData: "10000"; Check: IsEffectsVolumeZero; Components: audiofix
+Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Audio Settings"; ValueType: dword; ValueName: "Effects Volume"; ValueData: "10000"; Check: IsEffectsVolumeZero
+Root: HKCU; Subkey: "Software\Remedy Entertainment\Max Payne 2\Audio Settings"; ValueType: dword; ValueName: "Music Volume"; ValueData: "10000"; Check: IsEffectsVolumeZero
 
 [Code]
 // =============================================================================
@@ -328,16 +327,14 @@ begin
     // Backup 1: MP2_English.ras original
     SafeBackupFile(AppDir + '\MP2_English.ras', AppDir + '\MP2_English.ras.bak');
 
-    // Backup 2: PREVIOUSLY.bik original se existir e componente de vídeo selecionado
-    if WizardIsComponentSelected('video') then
-      SafeBackupFile(AppDir + '\movies\previously.bik', AppDir + '\movies\previously.bik.bak');
+    // Backup 2: PREVIOUSLY.bik original se existir
+    SafeBackupFile(AppDir + '\movies\previously.bik', AppDir + '\movies\previously.bik.bak');
 
-    // Backup 3: sndmfc.dll original se componente de correção de áudio selecionado
-    if WizardIsComponentSelected('audiofix') then
-      SafeBackupFile(AppDir + '\sndmfc.dll', AppDir + '\sndmfc.dll.bak');
+    // Backup 3: sndmfc.dll original se existir
+    SafeBackupFile(AppDir + '\sndmfc.dll', AppDir + '\sndmfc.dll.bak');
 
-    // Backup 4: ControlScheme.png original se componente widescreen selecionado
-    if WizardIsComponentSelected('widescreen') then
+    // Backup 4: ControlScheme.png original se tarefa widescreen selecionada
+    if WizardIsTaskSelected('widescreen') then
       SafeBackupFile(AppDir + '\scripts\ControlScheme.png', AppDir + '\scripts\ControlScheme.png.bak');
   end;
 end;

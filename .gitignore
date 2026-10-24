@@ -4,7 +4,9 @@
 # ==============================================================================
 
 # Binários pesados (> 100 MB limite do GitHub e pacotes compilados de distribuição)
+*.exe
 dist/*.exe
+dist/*.zip
 dist/*.ras
 dist/*.mp2m
 *.ras

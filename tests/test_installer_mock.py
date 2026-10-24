@@ -250,32 +250,28 @@ class TestInstallerEmpirical(unittest.TestCase):
         self.assertFalse(os.path.isfile(os.path.join(self.sandbox_dir, "Desinstalar_Traducao.bat")), "Desinstalar_Traducao.bat not removed after uninstall")
         self.assertFalse(os.path.isfile(os.path.join(self.sandbox_dir, "d3d8.dll")), "Widescreen d3d8.dll not removed after uninstall")
 
-    def test_04_core_only_component_installation(self):
-        """Verify selective component installation: when only 'core' is selected, other components are omitted."""
+    def test_04_optional_widescreen_task(self):
+        """Verify that translation (including video and audiofix) always installs, while widescreen is optional via task."""
         orig_hashes = self._setup_mock_game()
 
-        # Install with only core component
-        res = self._run_installer(components="core")
+        # Install without widescreen task
+        res = self._run_installer(extra_args=["/TASKS="])
         self.assertEqual(res.returncode, 0)
 
-        # Core file must be installed and backed up
+        # Core translation, video recap and audio fix must be installed
         target_ras = os.path.join(self.sandbox_dir, "MP2_English.ras")
         self.assertEqual(sha256_file(target_ras), sha256_file(os.path.join(PROJECT_ROOT, "MP2_English_PTBR.ras")))
         bak_ras = os.path.join(self.sandbox_dir, "MP2_English.ras.bak")
         self.assertTrue(os.path.isfile(bak_ras))
 
-        # Widescreen and mod must NOT be installed
-        self.assertFalse(os.path.isfile(os.path.join(self.sandbox_dir, "d3d8.dll")), "d3d8.dll was installed despite widescreen not selected")
-        self.assertFalse(os.path.isfile(os.path.join(self.sandbox_dir, "MaxPayne2_PTBR.mp2m")), "MaxPayne2_PTBR.mp2m was installed despite mp2m not selected")
-
-        # video and audiofix were NOT selected, so previously.bik and sndmfc.dll must remain untouched (original hashes)
         target_bik = os.path.join(self.sandbox_dir, "movies", "previously.bik")
-        self.assertEqual(sha256_file(target_bik), orig_hashes[os.path.join("movies", "previously.bik")], "previously.bik was overwritten without video component")
-        self.assertFalse(os.path.isfile(target_bik + ".bak"), "previously.bik.bak should not exist when video component unselected")
+        self.assertEqual(sha256_file(target_bik), sha256_file(os.path.join(PROJECT_ROOT, "translation_ptbr", "movies", "PREVIOUSLY.bik")))
 
         target_dll = os.path.join(self.sandbox_dir, "sndmfc.dll")
-        self.assertEqual(sha256_file(target_dll), orig_hashes["sndmfc.dll"], "sndmfc.dll was overwritten without audiofix component")
-        self.assertFalse(os.path.isfile(target_dll + ".bak"), "sndmfc.dll.bak should not exist when audiofix component unselected")
+        self.assertEqual(sha256_file(target_dll), sha256_file(os.path.join(PROJECT_ROOT, "src", "installer", "assets", "sndmfc.dll")))
+
+        # Widescreen d3d8.dll must NOT be installed
+        self.assertFalse(os.path.isfile(os.path.join(self.sandbox_dir, "d3d8.dll")), "d3d8.dll was installed despite widescreen task not selected")
 
     def test_05_microsoft_defender_scan(self):
         """Scan dist/Instalador_MaxPayne2_PTBR_v3.0.0.exe with Microsoft Defender MpCmdRun.exe and verify 0 threats."""
