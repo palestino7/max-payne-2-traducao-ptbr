@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+# 06_First_Dream.h
+
+TRANSLATIONS = {
+    "First_Dream_1000_01": "Que estranho.",
+    "First_Dream_1010_01": "Eu não achava minha Beretta. Tinha alguém na porta.",
+    "First_Dream_1030_01": "Max.",
+    "First_Dream_1040_01": "Max.",
+    "First_Dream_1050_01": "Max, desculpe te acordar.",
+    "First_Dream_1053_01": "Max.",
+    "First_Dream_1060_01": "Shhh! É um segredo. Você não pode contar pra ninguém.",
+    "First_Dream_1065_01": "É melhor você atender.",
+    "First_Dream_1070_01": "Não precisa se preocupar, meu amor. Eu vou ficar bem.",
+    "First_Dream_1070_02": "Quando é que eu não fico bem?",
+    "First_Dream_1070_03": "O Max tá aqui agora. Você conhece o Max. Te ligo assim que terminar.",
+    "First_Dream_1070_04": "Te amo, querida.",
+    "First_Dream_1080_01": "Temos que invadir esse lugar agora. O Payne tá lá dentro.",
+    "First_Dream_1080_02": "Eles sabem que você sabe. Você tem que correr!",
+    "First_Dream_1080_03": "Max Payne, largue as suas armas e",
+    "First_Dream_1080_04": "saia com as mãos para o alto!",
+    "First_Dream_1080_05": "Este é o seu último aviso!",
+    "First_Dream_1090_01": "Corre, Payne, corre! Nós vamos atirar.",
+    "First_Dream_1090_02": "Derrubem ele, atirem pra matar.",
+    "First_Dream_1100_01": "Não abuse da sorte. Senta aí!",
+    "First_Dream_1110_01": "Nós estamos apenas começando.",
+    "First_Dream_1120_01": "Max.",
+    "First_Dream_1130_01": "Payne, senta agora!",
+    "First_Dream_1140_01": "Nem pense em gracinha.",
+    "First_Dream_1150_01": "Larga isso, larga no chão agora!",
+    "First_Dream_1160_01": "Larga a arma!",
+    "First_Dream_1170_01": "Meu herói.",
+}

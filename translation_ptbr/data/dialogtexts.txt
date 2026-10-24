@@ -1,0 +1,132 @@
+[DialogTexts]
+{
+	[MainDialog]
+	{
+		[PlayButton]				String = "&Jogar";
+		[AdvancedButton]			String = "&Opções...";
+		[QuitButton]				String = "&Sair";
+			
+		[VideoSettings]				String = "&Configurações de Vídeo";
+		[DisplayAdapter]			String = "&Adaptador de Vídeo:";
+		[ScreenMode]				String = "&Modo de Tela:";
+		[Acceleration]				String = "&Aceleração:";
+		[CustomizedGame]			String = "Escolher Jogo Customizado (&Mod)";
+		[PlayUnmodifiedGame]		String = "<nenhum selecionado>";
+		
+		[DisclaimerText]			String = "Os nomes dos produtos são marcas registradas de seus respectivos proprietários, e não da Rockstar Games, Inc., sendo incluídos exclusivamente para fins de entretenimento. Nenhum produto, pessoa ou estabelecimento mencionado ou exibido neste jogo endossou este título ou qualquer uma das ações aqui descritas, nem possui qualquer vínculo com a Rockstar Games, Inc.";
+	}
+
+	[NotEnoughVidMemDialog]
+	{
+		[Title]						String = "Max Payne 2 - Aviso";
+		
+		[Text]						String = "A resolução de tela e as opções gráficas selecionadas exigirão aproximadamente %iMB de memória de vídeo, mas sua placa gráfica dispõe de apenas %iMB. É provável que ocorra falta de memória de vídeo. Por favor, utilize uma resolução menor e/ou reduza os ajustes gráficos no menu Opções.";
+		[Text2]						String = "Deseja tentar executar o jogo mesmo assim?";
+
+		[OKButton]					String = "Sim";
+		[CancelButton]				String = "Não";
+	}
+
+	[AdvancedDialog]
+	{
+		[Title]						String = "Max Payne 2 - Opções";
+
+		[VideoSettings]				String = "&Configurações de Vídeo";
+		[Antialiasing]				String = "Antisserrilhamento:";
+		[AntialiasingOff]			String = "Desligado";
+		[AntialiasingSamples]		String = "%i amostras";
+		
+		[TextureColorDepth]			String = "Profundidade de Cor das Texturas:";
+		[TextureColorDepthLow]		String = "Baixa";
+		[TextureColorDepthMedium]	String = "Média";
+		[TextureColorDepthHigh]		String = "Alta";
+		
+		[TextureResolution]			String = "Resolução das Texturas:";
+		[TextureResolutionLow]		String = "Baixa";
+		[TextureResolutionMedium]	String = "Média";
+		[TextureResolutionHigh]		String = "Alta";
+		[TextureFiltering]			String = "Filtragem de Texturas:";
+		[TextureFilteringBilinear]	String = "Bilinear";
+		[TextureFilteringTrilinear]	String = "Trilinear";
+		[TextureFilteringAnisotropic] String = "Anisotrópica";
+		
+		[TripleScreenBuffers]		String = "Buffer Triplo na Tela:";
+		[AllowTaskSwitching]		String = "Permitir Teclas do Windows:";
+
+		[AudioSettings]				String = "&Configurações de Áudio";
+		[Sounds]					String = "Efeitos Sonoros:";
+		[EAXEffects]				String = "Efeitos Ambientais EAX:";
+		[SoundChannels]				String = "Canais de Som:";
+		[SoundChannelsLow]			String = "Baixo";
+		[SoundChannelsMedium]		String = "Médio";
+		[SoundChannelsHigh]			String = "Alto";
+		
+		[ContentScalability]		String = "&Escalabilidade de Conteúdo";
+		[CharacterShadows]			String = "Sombras dos Personagens:";
+		[CharacterShadowsLow]		String = "Baixa";
+		[CharacterShadowsMedium]	String = "Média";
+		[CharacterShadowsHigh]		String = "Alta";
+		[Decals]					String = "Marcas de Tiros (Decals):";
+		[DecalsLow]					String = "Baixo";
+		[DecalsMedium]				String = "Médio";
+		[DecalsHigh]				String = "Alto";
+		[Projectiles]				String = "Estilhaços e Projéteis:";
+		[ProjectilesLow]			String = "Baixo";
+		[ProjectilesMedium]			String = "Médio";
+		[ProjectilesHigh]			String = "Alto";
+		[CharacterVariations]		String = "Variações de Personagens:";
+		[CharacterVariationsLow]	String = "Baixa";
+		[CharacterVariationsMedium]	String = "Média";
+		[CharacterVariationsHigh]	String = "Alta";
+		[MaterialVariations]		String = "Variações de Materiais:";
+		[MaterialVariationsLow]		String = "Baixa";
+		[MaterialVariationsMedium]	String = "Média";
+		[MaterialVariationsHigh]	String = "Alta";
+		[Fogging]					String = "Efeito de Névoa:";
+		[Flares]					String = "Reflexos de Luz (Flares):";
+		[Mirrors]					String = "Espelhos:";
+		[HighDetailRagdolls]		String = "Física Ragdoll Detalhada:";
+		[HighDetailParticles]		String = "Partículas Detalhadas:";
+		[CubicEnvironmentMaps]		String = "Mapeamento Cúbico de Ambiente:";
+		[MultiChannelAudio]			String = "Áudio Multicanal:";
+		[PostProcessEffects]		String = "Efeitos de Pós-Processamento:";
+		[PostProcessEffectsOff]		String = "Desligado";
+		[PostProcessEffectsMedium]	String = "Médio";
+		[PostProcessEffectsHigh]	String = "Alto";
+		[PixelShaderSkinning]		String = "Skins com Pixel Shader:";
+
+		[ResetAllSettingsTo]		String = "Redefinir Tudo Para:";
+		[ResetLow]					String = "&Baixo";
+		[ResetMedium]				String = "&Médio";
+		[ResetHigh]					String = "&Alto";
+
+		[OKButton]					String = "OK";
+		[CancelButton]				String = "Cancelar";
+
+		[TipAntialiasing]	String = "O Antisserrilhamento suaviza bordas serrilhadas, mas requer uma placa aceleradora 3D com bom desempenho. Caso ocorram problemas com a qualidade gráfica ou na execução do jogo, recomenda-se desativar esta opção.";
+		[TipTextTextureColorDepth]	String = "Altera a profundidade de cor das texturas e o consumo de memória de vídeo. Texturas compactadas são sempre utilizadas quando suportadas. Defina como Alto apenas se possuir mais de 64 MB de memória de vídeo e mais de 256 MB de RAM do sistema.";
+		[TipTextureResolution]	String = "Altera a resolução e a nitidez das texturas em todo o jogo, influenciando diretamente o consumo de memória. Defina como Alto apenas se possuir mais de 64 MB de memória de vídeo e mais de 256 MB de RAM do sistema.";
+		[TipTextFilteringMode]	String = "Altera o modo de filtragem de texturas. A filtragem Trilinear e a Anisotrópica oferecem grande ganho na qualidade visual à distância e em ângulos oblíquos, com leve impacto no desempenho.";
+		[TipTripleBuffering]	String = "Altera o modo de buffer de tela. O uso de Buffer Duplo é o padrão recomendado, mas o Buffer Triplo pode ser ativado. Ele consome mais memória de vídeo, mas em certos cenários proporciona uma taxa de quadros mais estável e fluida.";
+		[TipTextTaskSwitching]	String = "Permite o funcionamento de combinações de teclas do Windows, como ALT+F4 (fechar o jogo) e ALT+ENTER (alternar entre modo janela e tela cheia), durante a execução do jogo.";
+
+		[TipSounds]	String = "Ativa ou desativa os efeitos sonoros do jogo. Desmarcar esta opção silencia o jogo completamente.";
+		[TipTextEAX]	String = "Se a sua placa de áudio for compatível com Creative Labs EAX 2.0, esta opção aprimorará significativamente a imersão sonora ao adicionar reverberação ambiental realista. Caso ocorram problemas de áudio, desative para maior compatibilidade.";
+		[TipMultiChannelAudio]	String = "O Áudio Multicanal melhora o posicionamento espacial de sons 2D em configurações com caixas de som 5.1. Não deve ser ativado a menos que você possua uma caixa central dedicada (mantenha desativado ao jogar com duas caixas de som ou fones de ouvido). Caso ocorram problemas, desative para maior compatibilidade.";
+		[TipSoundChannels]	String = "Ajusta a quantidade simultânea de canais de áudio utilizados pelo jogo. Configurações mais altas produzem uma acústica mais rica e detalhada, mas consomem um pouco mais de CPU e memória. Baixo e Médio utilizam 12 canais; Alto utiliza 16 canais de áudio.";
+
+		[TipTextCharacterShadows]	String = "Controla como as sombras dos personagens são renderizadas. Configurações mais altas aumentam a qualidade visual, mas exigem maior capacidade de processamento da CPU. Requer suporte a Pixel Shader versão 1.1 para sombras em níveis Médio e Alto.";
+		[TipDecals]	String = "Controla a quantidade máxima de marcas de tiros e impactos exibidos permanentemente nos cenários. Esta configuração pode ser reduzida para economizar memória do sistema e poder de processamento gráfico.";
+		[TipProjectiles]	String = "Controla a quantidade de detritos físicos e estilhaços gerados durante o combate, especialmente as cápsulas de balas ejetadas pelas armas. Reduza esta configuração para melhorar o desempenho.";
+		[TipMaterialVariations]	String = "Configurações mais altas aprimoram os efeitos de tiros e impactos, proporcionando maior variedade visual e sonora ao atingir diferentes materiais (vidro, madeira, metal, concreto). Níveis mais altos aumentam o consumo de memória RAM.";
+		[TipPostProcessEffects]	String = "Controla a qualidade dos efeitos de Desfoque de Movimento e Remapeamento de Tons durante o Bullet Time. Desligado desativa os efeitos; Médio os ativa; e Alto ativa pós-processamento com precisão por pixel. O Remapeamento de Tons requer suporte a Pixel Shader 1.1.";
+
+		[TipCubicEnvironmentMaps]	String = "Desativa o Mapeamento Cúbico de Ambiente utilizado em certos objetos reflexivos do jogo. Esta é uma opção de compatibilidade que pode ser desativada caso você encontre falhas visuais ou de execução.";
+		[TipTextFogging]	String = "Controla o efeito de névoa de distância volumétrica. Desative somente caso encontre problemas severos de desempenho ou defeitos visuais, mantendo-o ativado para preservar a atmosfera sombria original do jogo.";
+		[TipFlares]	String = "Controla os reflexos de luz (flares) e o brilho ao redor de lâmpadas e focos intensos de iluminação. Desativar os reflexos aumenta o desempenho, mas reduz a qualidade visual.";
+		[TipMirrors]	String = "Ativa reflexos em tempo real nos espelhos dos cenários. Desativar os espelhos melhora sensivelmente o desempenho em certos locais, mas reduz a qualidade visual. Nem todas as placas de vídeo suportam espelhos.";
+		[TipHighDetailRagdolls]	String = "Aprimora o realismo e a precisão da física ragdoll dos corpos ao serem alvejados e caírem. Desativar esta opção melhora o desempenho em processadores mais antigos.";
+		[TipTextParticleDetail]	String = "Controla a intensidade e densidade de partículas como faíscas, fumaça e poeira em explosões e tiroteios. Desativar o alto detalhe melhora significativamente o desempenho em processadores ou placas de vídeo antigas.";
+		[TipPixelShaderSkinning]	String = "Ativa ou desativa a iluminação sobre a pele e roupas dos personagens via Pixel Shader, aprimorando substancialmente a qualidade da iluminação nos modelos 3D. Requer placa de vídeo com suporte a Pixel Shader versão 1.4.";
+	}	
+}

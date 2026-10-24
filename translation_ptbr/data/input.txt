@@ -1,0 +1,29 @@
+[key] ScanCode = 69;	KeyName = "NUM LOCK";		// for some reason win32 GetKeyNameText calls NumLock PAUSE
+[key] ScanCode = 156;	KeyName = "NUM ENTER";
+[key] ScanCode = 157;	KeyName = "CTRL DIR";
+[key] ScanCode = 181;	KeyName = "NUM /";
+[key] ScanCode = 183;	KeyName = "PRINT SCREEN";
+[key] ScanCode = 184;	KeyName = "ALT DIR";
+[key] ScanCode = 197;	KeyName = "PAUSE";
+[key] ScanCode = 199;	KeyName = "HOME";
+[key] ScanCode = 200;	KeyName = "CIMA";
+[key] ScanCode = 201;	KeyName = "PG UP";
+[key] ScanCode = 203;	KeyName = "ESQUERDA";
+[key] ScanCode = 205;	KeyName = "DIREITA";
+[key] ScanCode = 207;	KeyName = "END";
+[key] ScanCode = 208;	KeyName = "BAIXO";
+[key] ScanCode = 209;	KeyName = "PG DOWN";
+[key] ScanCode = 210;	KeyName = "INSERT";
+[key] ScanCode = 211;	KeyName = "DELETE";
+[key] ScanCode = 219;	KeyName = "WIN ESQ";
+[key] ScanCode = 220;	KeyName = "WIN DIR";
+[key] ScanCode = 221;	KeyName = "MENU WIN";
+
+[names]
+MouseButtonName	= "BM ";		// leave space after, NUMBER of the mouse button IS ADDED after this string BY CODE
+MouseWheelUp 	= "Roda do Mouse P/ Cima";	
+MouseWheelDown	= "Roda do Mouse P/ Baixo";	
+MouseLRName		= "Mouse Esq/Dir";	// mouse left/right axis, not printed anywhere at the moment
+MouseUDName 	= "Mouse Cima/Baixo"; 	// mouse up/down axis, not printed anywhere at the moment
+DoubleClick 	= " DUPLO CLIQUE";	// leave space before the word DCLICK, because this may be added for example to string "MB 1" 
+                                // and you want it to look like "MB 1 DCLICK" in the menu, 

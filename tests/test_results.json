@@ -1,0 +1,145 @@
+{
+  "total": 27,
+  "passed": 24,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 3,
+  "strict_mode": false,
+  "results": [
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_01_subtitles_inventory",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_02_graphic_novels_inventory",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_03_loading_screens_inventory",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_04_menu_bitmaps_inventory_and_dimensions",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_05_hud_and_character_cards",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_06_recap_cutscene_previously_bik",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_07_inno_setup_script_inventory",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_08_core_text_files_inventory",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_09_visual_showcase_assets",
+      "status": "SKIP",
+      "message": "Pending Milestone M3: loading_screens_comparison.png awaiting M3 image generation."
+    },
+    {
+      "test": "__main__.TestTier1FeatureCoverage.test_10_inno_setup_executable_binary_inventory",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier2BoundaryCornerCases.test_01_windows_1252_strict_decoding",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier2BoundaryCornerCases.test_02_windows_1252_no_undefined_bytes",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier2BoundaryCornerCases.test_03_portuguese_accents_presence",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier2BoundaryCornerCases.test_04_absence_of_utf8_mojibake_artifacts",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier2BoundaryCornerCases.test_05_maxfx_subtitle_grammar_and_empty_strings",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier2BoundaryCornerCases.test_06_dds_headers_magic_and_dimensions",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier2BoundaryCornerCases.test_07_bink_video_header_magic",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier3CrossFeatureMockInstall.test_01_mock_installation_layout",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier3CrossFeatureMockInstall.test_02_pre_installation_backup_integrity",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier3CrossFeatureMockInstall.test_03_installation_idempotence",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier3CrossFeatureMockInstall.test_04_uninstallation_rollback_bit_for_bit",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier4AcceptanceScenarios.test_01_windows_defender_scan",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier4AcceptanceScenarios.test_02_readme_word_count",
+      "status": "SKIP",
+      "message": "Pending Milestone M3: README currently has 2034 words (limit is < 450 words). Awaiting Worker M3 rewrite."
+    },
+    {
+      "test": "__main__.TestTier4AcceptanceScenarios.test_03_readme_competitor_exclusion",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier4AcceptanceScenarios.test_04_readme_seo_labels_exclusion",
+      "status": "SKIP",
+      "message": "Pending Milestone M3: README still contains (SEO) tags, awaiting Worker M3 cleanup."
+    },
+    {
+      "test": "__main__.TestTier4AcceptanceScenarios.test_05_readme_creator_attribution",
+      "status": "PASS",
+      "message": ""
+    },
+    {
+      "test": "__main__.TestTier4AcceptanceScenarios.test_21_microsoft_defender_scan_installer",
+      "status": "PASS",
+      "message": ""
+    }
+  ]
+}

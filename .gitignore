@@ -1,0 +1,27 @@
+# ==============================================================================
+# Max Payne 2: The Fall of Max Payne — Tradução PT-BR (Definitiva v3.0.0)
+# .gitignore
+# ==============================================================================
+
+# Binários pesados (> 100 MB limite do GitHub e pacotes compilados de distribuição)
+dist/*.exe
+dist/*.ras
+dist/*.mp2m
+*.ras
+*.mp2m
+*.bak
+
+# Diretórios de trabalho / descompactação intermediária / auditoria
+concorrente/
+extracted_data/
+extracted_english/
+extracted_strings/
+
+# Metadados internos e caches
+.agents/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+uninst_ptbr/

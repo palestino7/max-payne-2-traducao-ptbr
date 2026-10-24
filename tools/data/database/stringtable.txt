@@ -1,0 +1,82 @@
+[HUDPRINT_SURVIVAL_KILL]			String = "+2 sec";
+[HUDPRINT_PICKUP_BERETTA_AMMO]		String = "9mm Pistol Ammo";
+[HUDPRINT_PICKUP_DESERTEAGLE_AMMO]	String = "Desert Eagle Ammo";
+[HUDPRINT_PICKUP_SHOTGUN_AMMO]		String = "Shotgun Ammo";
+[HUDPRINT_PICKUP_STRIKER_AMMO]		String = "Striker Ammo";
+[HUDPRINT_PICKUP_INGRAM_AMMO]		String = "Ingram Ammo";
+[HUDPRINT_PICKUP_MP5_AMMO]			String = "MP5 Ammo";
+[HUDPRINT_PICKUP_KALASHNIKOV_AMMO]	String = "Kalashnikov Ammo";
+[HUDPRINT_PICKUP_COLTCOMMANDO_AMMO]	String = "M4 Carbine Ammo";
+[HUDPRINT_PICKUP_SNIPER_AMMO]     	String = "Sniper Rifle Ammo";
+[HUDPRINT_PICKUP_DRAGUNOV_AMMO]    	String = "Dragunov Ammo";
+
+[HUDPRINT_PICKUP_BERETTA]			String = "9mm Pistol";
+[HUDPRINT_PICKUP_BERETTADUAL]		String = "9mm Pistol";
+[HUDPRINT_PICKUP_DESERTEAGLE]		String = "Desert Eagle";
+[HUDPRINT_PICKUP_SAWEDSHOTGUN]		String = "Sawed-Off Shotgun";
+[HUDPRINT_PICKUP_PUMPSHOTGUN]		String = "Pump-Action Shotgun";
+[HUDPRINT_PICKUP_STRIKER]			String = "Striker";
+[HUDPRINT_PICKUP_INGRAM]			String = "Ingram";
+[HUDPRINT_PICKUP_INGRAMDUAL]		String = "Ingram";
+[HUDPRINT_PICKUP_MP5]				String = "MP5";
+[HUDPRINT_PICKUP_KALASHNIKOV]		String = "Kalashnikov";
+[HUDPRINT_PICKUP_COLTCOMMANDO]		String = "M4 Carbine";
+[HUDPRINT_PICKUP_SNIPER]		    String = "Sniper Rifle";
+[HUDPRINT_PICKUP_DRAGUNOV]		    String = "Dragunov";
+[HUDPRINT_PICKUP_PAINKILLERS]	   	String = "Painkillers";
+[HUDPRINT_PICKUP_MOLOTOV]			String = "Molotov Cocktail";
+[HUDPRINT_PICKUP_GRENADE]			String = "Grenade";
+
+[HUDPRINT_PICKUP_BERETTA_AMMO_FULL]			String = "9mm Pistol Ammo full";
+[HUDPRINT_PICKUP_DESERTEAGLE_AMMO_FULL]		String = "Desert Eagle Ammo full";
+[HUDPRINT_PICKUP_SHOTGUN_AMMO_FULL]			String = "Shotgun Ammo full";
+[HUDPRINT_PICKUP_STRIKER_AMMO_FULL]			String = "Striker Ammo full";
+[HUDPRINT_PICKUP_INGRAM_AMMO_FULL]			String = "Ingram Ammo full";
+[HUDPRINT_PICKUP_MP5_AMMO_FULL]				String = "MP5 Ammo full";
+[HUDPRINT_PICKUP_KALASHNIKOV_AMMO_FULL]		String = "Kalashnikov Ammo full";
+[HUDPRINT_PICKUP_COLTCOMMANDO_AMMO_FULL]	String = "M4 Carbine Ammo full";
+[HUDPRINT_PICKUP_SNIPER_AMMO_FULL]			String = "Sniper Ammo full";
+[HUDPRINT_PICKUP_DRAGUNOV_AMMO_FULL]		String = "Dragunov Ammo full";
+[HUDPRINT_PICKUP_PAINKILLERS_FULL]			String = "Painkillers full";
+[HUDPRINT_PICKUP_MOLOTOV_AMMO_FULL]			String = "Molotovs full";
+[HUDPRINT_PICKUP_GRENADE_AMMO_FULL]			String = "Grenades full";
+
+
+// these variables are referred from globalconfig.txt
+// Attention! there is another pause text in stringdefines.h for gn-mode (it can't be a hud print)
+[NoPauseCameraPathText]				String = "Paused"; 
+[QuickSaveGameDescriptionPrefix]	String = "Quick: ";
+[AutoSaveGameDescriptionPrefix]		String = "Auto: ";
+[QuickLoadQueryText]				String = "Press F9 again to Quickload, Esc to Cancel";
+
+[HUDPRINT_PRESS_USE_TO_LOAD]		String = "Press the use key (#USE#) to load the last saved game.";
+[HUDPRINT_PRESS_F9_TO_LOAD]			String = "Press the quickload key (F9) to load the last saved game.";
+[TIP_PAUSECAMERA]					String = "Tip: Press #PAUSE# to switch off the pause mode.";
+[TIP_SNIPER]					    String = "Tip: Press and hold the use key (#USE#) to zoom with the sniper rifle.";
+[TIP_PAINKILLER]					String = "Tip: Press #PAINKILLER# to use painkillers to ease the pain.";
+[TIP_EXAMINE]						String = "Tip: Press the use key (#USE#) to use or examine interesting items.";
+[TIP_SHOOTDODGE]					String = "Tip: Press ShootDodge key (#DODGEMODIFIER#) and direction to shootdodge.";
+[TIP_BULLETTIME]					String = "Tip: Press Bullet Time (#SLOWMOTION#) to go into Bullet Time.";
+[TIP_DODGE]							String = "Tip: Press #JUMP# and a direction key to perform evasive rolls.";
+
+[STRING_NORMAL_COMPLETED1]			String = "Congratulations! You have completed Max Payne 2: The Fall of Max Payne.";
+[STRING_NORMAL_COMPLETED2]			String = "The Dead Man Walking and New York Minute gameplay modes and";
+[STRING_NORMAL_COMPLETED3]			String = "Hard-Boiled difficulty level have been unlocked for even further challenges.";
+
+[STRING_NIGHTMARE_COMPLETED1]		String = "Congratulations!";
+[STRING_NIGHTMARE_COMPLETED2]		String = "You have completed Hard-Boiled mode. Now prepare for";
+[STRING_NIGHTMARE_COMPLETED3]		String = "the ultimate challenge of Dead on Arrival gameplay mode.";
+
+[STRING_HELL_COMPLETED1]			String = "Congratulations!";
+[STRING_HELL_COMPLETED2]			String = "You have completed Dead on Arrival -";
+[STRING_HELL_COMPLETED3]			String = "the hardest challenge of them all.";
+
+[STRING_NYM_MAP]					String = "Your current time is: #TOTALTIME#";
+[STRING_NYM_PART1_PAR]				String = "Remedy par at this point: 0:16:19";
+[STRING_NYM_PART2_PAR]				String = "Remedy par at this point: 0:27:41";
+
+[STRING_TIMEDMODE_COMPLETED1]		String = "Congratulations! New York Minute Completed -";
+[STRING_TIMEDMODE_COMPLETED2]		String = "You have won the race against clock.";
+[STRING_TIMEDMODE_COMPLETED3]		String = "Your Total time was #TOTALTIME#";
+[STRING_TIMEDMODE_COMPLETED4]		String = "Remedy par time is: 0:46:29"; // same time format as #TOTALTIME#
+

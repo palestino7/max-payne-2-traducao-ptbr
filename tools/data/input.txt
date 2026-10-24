@@ -1,0 +1,29 @@
+[key] ScanCode = 69;	KeyName = "NUMLOCK";		// for some reason win32 GetKeyNameText calls NumLock PAUSE
+[key] ScanCode = 156;	KeyName = "NUM ENTER";
+[key] ScanCode = 157;	KeyName = "RIGHT CTRL";
+[key] ScanCode = 181;	KeyName = "NUM /";
+[key] ScanCode = 183;	KeyName = "PRINTSCR";
+[key] ScanCode = 184;	KeyName = "RIGHT ALT";
+[key] ScanCode = 197;	KeyName = "PAUSE";
+[key] ScanCode = 199;	KeyName = "HOME";
+[key] ScanCode = 200;	KeyName = "UP";
+[key] ScanCode = 201;	KeyName = "PGUP";
+[key] ScanCode = 203;	KeyName = "LEFT";
+[key] ScanCode = 205;	KeyName = "RIGHT";
+[key] ScanCode = 207;	KeyName = "END";
+[key] ScanCode = 208;	KeyName = "DOWN";
+[key] ScanCode = 209;	KeyName = "PGDOWN";
+[key] ScanCode = 210;	KeyName = "INSERT";
+[key] ScanCode = 211;	KeyName = "DELETE";
+[key] ScanCode = 219;	KeyName = "WIN_LEFT";
+[key] ScanCode = 220;	KeyName = "WIN_RIGHT";
+[key] ScanCode = 221;	KeyName = "WIN_MENU";
+
+[names]
+MouseButtonName	= "MB ";		// leave space after, NUMBER of the mouse button IS ADDED after this string BY CODE
+MouseWheelUp 	= "Mouse Wheel Up";	
+MouseWheelDown	= "Mouse Wheel Down";	
+MouseLRName		= "Mouse LR";	// mouse left/right axis, not printed anywhere at the moment
+MouseUDName 	= "Mouse UD"; 	// mouse up/down axis, not printed anywhere at the moment
+DoubleClick 	= " DCLICK";	// leave space before the word DCLICK, because this may be added for example to string "MB 1" 
+                                // and you want it to look like "MB 1 DCLICK" in the menu, 
