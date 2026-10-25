@@ -102,8 +102,8 @@ Ao executar instaladores independentes de traduções baixados pela internet, o 
 Para conferir a autenticidade dos arquivos oficiais do lançamento:
 
 ```text
-b4a926a31b7ef5bfe82a0081629b9bd7a238b256c1f03108e0fc00c02fb259e4  Instalador_MaxPayne2_PTBR_v3.0.0.exe
-7b7287a3b16f8015cd6374cdb4259678f171a00c5512cfd47d20d9fca232af1e  Instalador_MaxPayne2_PTBR_v3.0.0.zip
+119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793  Instalador_MaxPayne2_PTBR_v3.0.0.exe
+d29aae73f2c96a48648e2929ce6d16d93142675fda8bd7508bccf8bfdf7b7f25  Instalador_MaxPayne2_PTBR_v3.0.0.zip
 dd9a9f13b320b2856e60be9a7a1499bc8a282c1cfa5038e5009552239b566d60  MaxPayne2_PTBR.mp2m
 324621e51b1422bf6f85bba64396d500b1caedb8e63f2fc92f8849d2f42f4b77  MP2_English_PTBR.ras
 ```

@@ -65,7 +65,7 @@ Name: "widescreen"; Description: "Instalar Widescreen Fix (Recomendado para moni
 [Files]
 ; 1. Arquivo Principal da Tradução (substitui MP2_English.ras com backup prévio)
 Source: "..\..\MP2_English_PTBR.ras"; DestDir: "{app}"; DestName: "MP2_English.ras"; Flags: ignoreversion uninsneveruninstall
-Source: "..\..\Desinstalar_Traducao.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "assets\Desinstalar_Traducao.bat"; DestDir: "{app}"; Flags: ignoreversion
 
 ; 2. Cutscene de Introdução "Anteriormente..." Legendada (áudio original + legendas PT-BR)
 Source: "..\..\translation_ptbr\movies\PREVIOUSLY.bik"; DestDir: "{app}\movies"; DestName: "previously.bik"; Flags: ignoreversion uninsneveruninstall

@@ -13,11 +13,25 @@ dist/*.mp2m
 *.mp2m
 *.bak
 
+# Scripts e arquivos temporários de raiz
+/*.bat
+/*.ps1
+*.webp
+README_*.txt
+TEST_*.md
+
+# Ferramentas externas e diretórios de dados temporários
+tools/data/
+tools/MaxPayne-Toolset/
+tools/*.zip
+tools/*.exe
+
 # Diretórios de trabalho / descompactação intermediária / auditoria
 concorrente/
 extracted_data/
 extracted_english/
 extracted_strings/
+scratch/
 
 # Metadados internos e caches
 .agents/
@@ -27,3 +41,4 @@ __pycache__/
 *$py.class
 *.log
 uninst_ptbr/
+tests/test_results.json
