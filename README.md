@@ -53,17 +53,17 @@ A **Versão 3.0.0 Definitiva** foi desenvolvida para solucionar cada uma dessas 
 ### 🎮 Gameplay Real em Widescreen 1080p
 Diálogos de rádio, transmissões de TV, falas de inimigos, cutscenes e armas do HUD totalmente em Português do Brasil:
 
-![Demonstração de Gameplay e Legendas](docs/images/gameplay_subtitles_v3.png)
+![Demonstração de Gameplay e Legendas](docs/images/gameplay_showcase_v3.png)
 
 ### 📖 Graphic Novels 100% Traduzidas nos Balões
-Todas as 138 páginas de quadrinhos desenhadas pelo mestre Ashley Wood foram traduzidas diretamente nos balões de fala, com letras nítidas e anti-aliasing de 4x:
+Todas as 138 páginas de quadrinhos desenhadas pelo mestre Ashley Wood foram traduzidas diretamente nos balões de fala, com letras nítidas e proporções originais preservadas:
 
-![Demonstração das Graphic Novels](docs/images/graphic_novels_v3.png)
+![Demonstração das Graphic Novels](docs/images/graphic_novels_showcase_v3.png)
 
 ### 🖼️ Telas de Carregamento com Tipografia Oficial
 Todas as 29 telas de introdução de capítulos e o modo *Homem Morto Caminhando* foram adaptadas com fidelidade absoluta:
 
-![Comparativo das Telas de Carregamento](docs/images/loading_screens_v3.png)
+![Comparativo das Telas de Carregamento](docs/images/loading_screens_comparativo_v3.png)
 
 ---
 
