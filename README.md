@@ -63,7 +63,7 @@ Todas as 138 páginas de quadrinhos desenhadas pelo mestre Ashley Wood foram tra
 ### 🖼️ Telas de Carregamento com Tipografia Oficial
 Todas as 29 telas de introdução de capítulos e o modo *Homem Morto Caminhando* foram adaptadas com fidelidade absoluta:
 
-![Comparativo das Telas de Carregamento](docs/images/loading_screens_comparativo_v3.png)
+![Comparativo das Telas de Carregamento](docs/images/loading_screens_comparativo_oficial.png)
 
 ---
 
