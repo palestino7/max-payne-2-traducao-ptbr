@@ -19,17 +19,17 @@ Apresentamos a **Versão 3.0.0 Definitiva** da tradução para português do Bra
 ### 📦 Arquivos para Download:
 | Arquivo | Descrição | Tamanho |
 |---|---|---|
-| **`Instalador_MaxPayne2_PTBR_v3.0.0.exe`** | Instalador Automático Direto | ~306 MB |
-| **`Instalador_MaxPayne2_PTBR_v3.0.0.zip`** | Arquivo Compactado (Recomendado) | ~305 MB |
-| **`MaxPayne2_PTBR.mp2m`** | Pacote de Mod para o Seletor de Mods | ~53,6 MB |
-| **`SHA256SUMS.txt`** | Tabela de Hashes Criptográficos SHA-256 | 383 bytes |
+| **`Instalador_MaxPayne2_PTBR_v3.0.0.exe`** | Instalador Automático Direto | ~320 MB |
+| **`Instalador_MaxPayne2_PTBR_v3.0.0.zip`** | Arquivo Compactado (Recomendado) | ~320 MB |
+| **`MaxPayne2_PTBR.mp2m`** | Pacote de Mod para o Seletor de Mods | ~56,2 MB |
+| **`SHA256SUMS.txt`** | Tabela de Hashes Criptográficos SHA-256 | 379 bytes |
 
 ### 🔒 Hashes Criptográficos Oficiais (SHA-256):
 ```text
-119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793  Instalador_MaxPayne2_PTBR_v3.0.0.exe
-d29aae73f2c96a48648e2929ce6d16d93142675fda8bd7508bccf8bfdf7b7f25  Instalador_MaxPayne2_PTBR_v3.0.0.zip
-dd9a9f13b320b2856e60be9a7a1499bc8a282c1cfa5038e5009552239b566d60  MaxPayne2_PTBR.mp2m
-324621e51b1422bf6f85bba64396d500b1caedb8e63f2fc92f8849d2f42f4b77  MP2_English_PTBR.ras
+d96f8d5766eb9e59ab5ec9ef05d7b972a8dc283bbdb69fd9add6ff1c8bb5c620  Instalador_MaxPayne2_PTBR_v3.0.0.exe
+33b8973bcc055a9f28d4a6fde7f82e20c2a488fd657ea21dacc88c8f9e24d49d  Instalador_MaxPayne2_PTBR_v3.0.0.zip
+479f3ee02f0d2661e6d5965223cbd524cf9304bc8c45a9d32663e98b06ee6ec1  MaxPayne2_PTBR.mp2m
+40fa313b6c56c94666838d6a7237a931d1957e4bda2c2c23063ddc720287a765  MP2_English_PTBR.ras
 ```
 
 ### 🛡️ Relatório Antivírus Oficial (VirusTotal):

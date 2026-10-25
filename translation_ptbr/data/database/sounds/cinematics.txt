@@ -1,0 +1,2549 @@
+#include "..\soundid.h"
+
+[Cinematic_010]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_010.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_020]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_020.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_030]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_030.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_035]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_035.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_040]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_040.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_040_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_040_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_060]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_060.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_060_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_060_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_060_bravura]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_060_bravura.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_080]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_080.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_080_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_080_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_110]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_110.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_110_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_110_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_110_cleaner1]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_110_cleaner1.wav;
+		Volume = 0.0;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_130]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_130.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_130_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_130_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_130_cleaner1]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_130_cleaner1.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_130_cleaner2]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_130_cleaner2.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_130_annie]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_130_annie.wav;
+		Volume = 0.0;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[Cinematic_135]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_135.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_135_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_135_max.wav;
+		Volume = 0.0;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_135_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_135_mona.wav;
+		Volume = 0.0;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_135_cleaner1]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_135_cleaner1.wav;
+		Volume = 0.0;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_135_cleaner2]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_135_cleaner2.wav;
+		Volume = 0.0;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[Cinematic_140]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_140.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_140_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_140_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_140_winterson]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_140_winterson.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_150]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_150.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_160]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_160.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_160_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_160_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 50;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_160_vinnie]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_160_vinnie.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 50;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_160_vlad]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_160_vlad.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 50;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_170]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_170.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_170_vlad]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_170_vlad.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_170_vinnie]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_170_vinnie.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_190]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_190.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_190_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_190_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_190_bravura]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_190_bravura.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_190_winterson]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_190_winterson.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_210]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_210.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_210_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_210_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_210_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_210_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_240]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_240.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_240_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_240_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_240_janitor]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_240_janitor.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_250]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_250.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_320]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_320.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_320_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_320_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_320_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_320_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_330]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_330.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_330_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_330_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_330_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_330_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_350]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_350.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_350_kaufman]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_350_kaufman.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_360]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_360.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_360_winterson]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_360_winterson.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[Cinematic_380]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_380.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_380_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_380_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_390]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_390.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_390_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_390_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_390_winterson]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_390_winterson.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_400]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_400.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_400_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_400_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_400_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_400_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+[Cinematic_410]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_410.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_410_cleaner]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_410_cleaner.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_410_femaleofficer]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_410_femaleofficer.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_410_officer6]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_410_officer6.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_420]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_420.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_430]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_430.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_430_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_430_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_440]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_440.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_460]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_460.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_470]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_470.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_470_cleaner]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_470_cleaner.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 1000;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_500]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_500.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_500_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_500_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_500_cleaner1]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_500_cleaner1.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_500_cleaner2]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_500_cleaner2.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_500_cleaner3]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_500_cleaner3.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_510]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_510.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_530]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_530.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_530_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_530_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_540]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_540.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_540_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_540_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_540_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_540_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_550]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_550.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_550_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_550_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[Cinematic_560]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_560.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_560_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_560_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_560_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_560_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_610]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_610.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_620]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_620.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_620_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_620_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_620_mobster1]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_620_mobster1.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_620_mobster2]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_620_mobster2.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_620_mobster3]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_620_mobster3.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_630]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_630.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_630_vinnie]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_630_vinnie.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_640]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_640.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_640_vinnie]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_640_vinnie.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[Cinematic_670]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_670.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_690]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_690.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_690_vlad]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_690_vlad.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_700]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_700.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_700_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_700_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_710]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_710.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_710_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_710_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_710_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_710_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_720]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_720.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_720_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_720_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_720_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_720_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[Cinematic_740]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_740.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_740_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_740_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_740_mona]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_740_mona.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_750]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_750.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_750_max]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_750_max.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_750_vlad]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_750_vlad.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_750_woden]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\jawbone\cinematic_750_woden.wav;
+		Volume = JAWBONE_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = YES;
+		Hotspot = 1;
+		Falloff = 10;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[Cinematic_760]
+{
+	[Properties] ID = CINEMATIC_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = cinematics\cinematic_760.wav;
+		Volume = CINEMATIC_VOLUME;
+		Random = 0%;
+		Streamed = YES;
+		3DSound = NO;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+

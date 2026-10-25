@@ -1,409 +1,588 @@
-// =========================================================
-// BEGIN 10 POLICE STATION
-// ---------------------------------------------------------
-
 [Police_Station_1000_01]		String = "Eu estava furioso. Comigo mesmo. Com o Bravura. Com a Mona.";
-[Police_Station_1000_02]		String = "Será que ela valia tudo isso?";
 
-[Police_Station_1010_01]		String = "Não invejo você, do jeito que o chefe tá bufando.";
-[Police_Station_1010_02]		String = "Nem adianta entrar lá pra limpar. Deixa ele esfriar a cabeça primeiro.";
-[Police_Station_1010_03]		String = "É melhor você ir logo redigir aquele relatório.";
+[Police_Station_1000_02]		String = "SerÃ¡ que ela valia tudo isso?";
 
-[Police_Station_1020_01]		String = "Ele tá naquela fase de bom moço de novo.";
+[Police_Station_1010_01]		String = "NÃ£o invejo vocÃª, do jeito que o chefe tÃ¡ bufando.";
+
+[Police_Station_1010_02]		String = "Nem adianta entrar lÃ¡ pra limpar. Deixa ele esfriar a cabeÃ§a primeiro.";
+
+[Police_Station_1010_03]		String = "Ã‰ melhor vocÃª ir logo redigir aquele relatÃ³rio.";
+
+[Police_Station_1020_01]		String = "Ele tÃ¡ naquela fase de bom moÃ§o de novo.";
+
 [Police_Station_1020_02]		String = "Se rebaixa de vice-chefe para tenente";
-[Police_Station_1020_03]		String = "só para ficar mais perto dos tiras na rua.";
-[Police_Station_1020_04]		String = "Se quer saber a minha opinião, ele ama todos nós um pouco além da conta pro próprio bem dele.";
 
-[Police_Station_1030_01]		String = "O porta-voz dos Alcoólicos Anônimos. Ele te deu isso também?";
-[Police_Station_1030_02]		String = "Temos que tirar o chapéu pra ele, afinal ele venceu a garrafa.";
-[Police_Station_1030_03]		String = "Uma vitória dessas fica marcada pra sempre.";
+[Police_Station_1020_03]		String = "sÃ³ para ficar mais perto dos tiras na rua.";
 
-[Police_Station_1040_01]		String = "Se eu fosse você, ia pra minha mesa";
+[Police_Station_1020_04]		String = "Se quer saber a minha opiniÃ£o, ele ama todos nÃ³s um pouco alÃ©m da conta pro prÃ³prio bem dele.";
+
+[Police_Station_1030_01]		String = "O porta-voz dos AlcoÃ³licos AnÃ´nimos. Ele te deu isso tambÃ©m?";
+
+[Police_Station_1030_02]		String = "Temos que tirar o chapÃ©u pra ele, afinal ele venceu a garrafa.";
+
+[Police_Station_1030_03]		String = "Uma vitÃ³ria dessas fica marcada pra sempre.";
+
+[Police_Station_1040_01]		String = "Se eu fosse vocÃª, ia pra minha mesa";
+
 [Police_Station_1040_02]		String = "e fingiria pelo menos que estava fazendo o que mandaram.";
 
-[Police_Station_1050_01]		String = "Dá o fora, tô ocupado! Alguns de nós têm trabalho de verdade pra fazer.";
+[Police_Station_1050_01]		String = "DÃ¡ o fora, tÃ´ ocupado! Alguns de nÃ³s tÃªm trabalho de verdade pra fazer.";
 
 [Police_Station_1060_01]		String = "Por acaso parece que estou aberto para atendimento?";
-[Police_Station_1060_02]		String = "Quando a porta tá fechada, é porque tem um bom motivo!";
 
-[Police_Station_1070_01]		String = "Tô ocupado fazendo uma lista dos traseiros que eu vou chutar daqui.";
-[Police_Station_1070_02]		String = "Você não vai querer ser um deles!";
+[Police_Station_1060_02]		String = "Quando a porta tÃ¡ fechada, Ã© porque tem um bom motivo!";
 
-[Police_Station_1080_01]		String = "Certo. Nós encontramos você chapado de Valkyr, coberto de sangue,";
-[Police_Station_1080_02]		String = "enterrando os pedaços da sua esposa e do entregador de pizza";
+[Police_Station_1070_01]		String = "TÃ´ ocupado fazendo uma lista dos traseiros que eu vou chutar daqui.";
+
+[Police_Station_1070_02]		String = "VocÃª nÃ£o vai querer ser um deles!";
+
+[Police_Station_1080_01]		String = "Certo. NÃ³s encontramos vocÃª chapado de Valkyr, coberto de sangue,";
+
+[Police_Station_1080_02]		String = "enterrando os pedaÃ§os da sua esposa e do entregador de pizza";
+
 [Police_Station_1080_03]		String = "debaixo de uma roseira no quintal.";
+
 [Police_Station_1080_04]		String = "Havia uma motosserra ensanguentada na banheira e, pelo visto,";
+
 [Police_Station_1080_05]		String = "os dois foram alvejados em cima da sua cama.";
-[Police_Station_1080_06]		String = "As armas do crime estão cheias de impressões digitais suas.";
-[Police_Station_1080_07]		String = "E você ainda tem a cara de pau de dizer que não foi você.";
-[Police_Station_1080_08]		String = "Mas é claro que não! Eu sou um bode expiatório, foi uma armação, uma emboscada!";
-[Police_Station_1080_09]		String = "Eu estava chegando perto demais da verdade, então eles tinham que se livrar de mim.";
+
+[Police_Station_1080_06]		String = "As armas do crime estÃ£o cheias de impressÃµes digitais suas.";
+
+[Police_Station_1080_07]		String = "E vocÃª ainda tem a cara de pau de dizer que nÃ£o foi vocÃª.";
+
+[Police_Station_1080_08]		String = "Mas Ã© claro que nÃ£o! Eu sou um bode expiatÃ³rio! Foi uma armaÃ§Ã£o!";
+
+[Police_Station_1080_09]		String = "Eu estava chegando perto demais da verdade, entÃ£o eles tinham que se livrar de mim.";
+
 [Police_Station_1080_10]		String = "Essa eu quero ouvir.";
-[Police_Station_1080_11]		String = "A sua esposa e o entregador de pizza tinham que se livrar de você?";
-[Police_Station_1080_12]		String = "Não, não...";
-[Police_Station_1080_13]		String = "É, é isso aí! Eles iam me apagar.";
+
+[Police_Station_1080_11]		String = "A sua esposa e o entregador de pizza tinham que se livrar de vocÃª?";
+
+[Police_Station_1080_12]		String = "NÃ£o, nÃ£o...";
+
+[Police_Station_1080_13]		String = "Ã‰! Ã‰ isso aÃ­! Eles iam me apagar.";
+
 [Police_Station_1080_14]		String = "Filhos da puta! Eles iam me matar pra roubar a minha grana.";
-[Police_Station_1080_15]		String = "Foi legítima defesa.";
+
+[Police_Station_1080_15]		String = "Foi legÃ­tima defesa.";
+
 [Police_Station_1080_16]		String = "Entendi. Sua esposa e o pizzaiolo estavam 'invadindo' a sua cama.";
-[Police_Station_1080_17]		String = "E aí você matou os dois.";
-[Police_Station_1080_18]		String = "Não! Eu não matei ninguém! Foi uma armação, você não tava prestando atenção?";
-[Police_Station_1080_19]		String = "Ah, tá, agora eu entendi tudo.";
-[Police_Station_1080_20]		String = "A sua esposa e o entregador conspiraram diabolicamente para incriminar você,";
-[Police_Station_1080_21]		String = "se mataram na sua cama com a sua própria arma,";
+
+[Police_Station_1080_17]		String = "E aÃ­ vocÃª matou os dois.";
+
+[Police_Station_1080_18]		String = "NÃ£o! Eu nÃ£o matei ninguÃ©m! Foi uma armaÃ§Ã£o, vocÃª nÃ£o tava prestando atenÃ§Ã£o?";
+
+[Police_Station_1080_19]		String = "Ah, tÃ¡, agora eu entendi tudo.";
+
+[Police_Station_1080_20]		String = "A sua esposa e o entregador conspiraram diabolicamente para incriminar vocÃª,";
+
+[Police_Station_1080_21]		String = "se mataram na sua cama com a sua prÃ³pria arma,";
+
 [Police_Station_1080_22]		String = "depois se esquartejaram sozinhos com a sua motosserra na banheira,";
-[Police_Station_1080_23]		String = "e você só estava sendo um bom vizinho ajudando a enterrar os dois sob as roseiras?";
-[Police_Station_1080_24]		String = "Exatamente! Sou um cidadão exemplar!";
-[Police_Station_1080_25]		String = "Você é um comediante de primeira, isso sim. Mas a piada acabou.";
-[Police_Station_1080_26]		String = "Você vai pro xilindró, amigo.";
-[Police_Station_1080_27]		String = "Não! Você não pode fazer isso! Eu tenho direitos!";
-[Police_Station_1080_28]		String = "Tem direito de permanecer calado. Use-o.";
-[Police_Station_1080_29]		String = "Espere até o meu advogado ouvir sobre isso!";
-[Police_Station_1080_30]		String = "Ele vai te processar até arrancar as suas calças!";
-[Police_Station_1080_31]		String = "Estou morrendo de medo.";
-[Police_Station_1080_32]		String = "Seu policial de merda!";
-[Police_Station_1080_33]		String = "Você não passa de um palhaço de farda!";
-[Police_Station_1080_34]		String = "Isso, bota tudo pra fora.";
-[Police_Station_1080_35]		String = "Eu conheço gente importante! Gente poderosa!";
-[Police_Station_1080_36]		String = "Eles vão fazer você voltar a patrulhar calçada lá no Bronx!";
-[Police_Station_1080_37]		String = "Claro que vão.";
-[Police_Station_1080_38]		String = "Você tá rindo? Acha isso engraçado?";
-[Police_Station_1080_39]		String = "Quem vai rir por último sou eu, quando você tiver desempregado!";
-[Police_Station_1080_40]		String = "Guarda, leve este cavalheiro de volta para a cela.";
-[Police_Station_1080_41]		String = "Ele precisa de um tempo para ensaiar a história dele pro juiz.";
-[Police_Station_1080_42]		String = "Não encosta em mim! Tira a mão de mim!";
-[Police_Station_1080_43]		String = "Eu vou acabar com você!";
-[Police_Station_1080_44]		String = "Tenha um bom dia.";
-[Police_Station_1080_45]		String = "Desgraçado!";
-[Police_Station_1080_46]		String = "Vá se foder!";
 
-[Police_Station_1090_01]		String = "Payne. Ouvi dizer que você teve uma noite bem agitada.";
-[Police_Station_1090_02]		String = "Nada fora do comum.";
+[Police_Station_1080_23]		String = "e finalmente atraÃ­ram vocÃª para o quintal,";
 
-[Police_Station_1100_01]		String = "E aí, Max. O chefe tá cuspindo fogo hoje.";
-[Police_Station_1100_02]		String = "É melhor você pisar em ovos por aqui.";
-[Police_Station_1100_03]		String = "Sempre piso.";
+[Police_Station_1080_24]		String = "onde esperaram pacientemente debaixo da roseira";
 
-[Police_Station_1110_01]		String = "Ei, Max. Me avisa se precisar de uma força com a papelada.";
+[Police_Station_1080_25]		String = "para injetar Valkyr em vocÃª, e quando vocÃª estava indefeso,";
 
-[Police_Station_1120_01]		String = "Corregedoria tá rondando o prédio.";
-[Police_Station_1120_02]		String = "Eles tão farejando sangue.";
+[Police_Station_1080_26]		String = "eles sangram em cima de vocÃª e chamam a polÃ­cia.";
 
-[Police_Station_1160_01]		String = "Preciso terminar esse relatório antes do fim do plantão.";
+[Police_Station_1080_27]		String = "Mais alguma coisa a acrescentar?";
 
-[Police_Station_1170_01]		String = "Alguém viu o meu grampeador?";
+[Police_Station_1080_28]		String = "Viu sÃ³, Ã© exatamente isso! Quem dera fosse tÃ£o fÃ¡cil, e eu sei que parece loucura,";
 
-[Police_Station_1180_01]		String = "O café daqui parece óleo de motor usado.";
-[Police_Station_1180_02]		String = "Nem me fale.";
+[Police_Station_1080_29]		String = "mas eles nÃ£o estavam nessa sozinhos, Ã© algo muito maior do que isso!";
 
-[Police_Station_1190_01]		String = "Você viu a mulher que trouxeram mais cedo?";
-[Police_Station_1190_02]		String = "A tal da assassina de aluguel? Vi sim.";
-[Police_Station_1190_03]		String = "Perigosa demais. Deu um trabalho desgraçado pra trancar.";
+[Police_Station_1080_30]		String = "Basicamente qualquer um que faz entregas em domicÃ­lio tÃ¡ no esquema, o carteiro...";
 
-[Police_Station_1200_01]		String = "Ela tá na carceragem lá embaixo.";
-[Police_Station_1200_02]		String = "Ninguém entra sem autorização expressa do tenente.";
+[Police_Station_1080_31]		String = "e isso significa que o governo tÃ¡ envolvido!";
 
-[Police_Station_1203_01]		String = "Bravura quer você na sala dele, Payne.";
+[Police_Station_1080_32]		String = "O carteiro me contou tudo.";
 
-[Police_Station_1205_01]		String = "O chefe tá te esperando.";
+[Police_Station_1080_33]		String = "EntÃ£o tudo o que a gente tem que fazer Ã© entrar em contato com esse carteiro,";
 
-[Police_Station_1207_01]		String = "Entra logo, Payne.";
-[Police_Station_1207_02]		String = "Não faça ele esperar mais.";
+[Police_Station_1080_34]		String = "e a gente consegue a prova.";
 
-[Police_Station_1208_01]		String = "Payne! Entra aqui agora!";
+[Police_Station_1080_35]		String = "Sabe, isso nÃ£o vai funcionar. Ele tÃ¡ morto.";
 
-[Police_Station_1210_01]		String = "Feche a porta, Payne.";
-[Police_Station_1210_02]		String = "Sente-se.";
+[Police_Station_1080_36]		String = "O carteiro tÃ¡ morto.";
 
-[Police_Station_1220_01]		String = "Que merda foi aquela ontem à noite?";
+[Police_Station_1080_37]		String = "Tenho certeza de que a promotoria pegaria leve se vocÃª confessasse agora";
 
-[Police_Station_1230_01]		String = "Você transformou metade do Upper East Side num queijo suíço!";
+[Police_Station_1080_38]		String = "e dissesse onde enterrou o corpo dele,";
 
-[Police_Station_1240_01]		String = "A imprensa tá caindo de pau em cima de mim!";
+[Police_Station_1080_39]		String = "suponho que nÃ£o seja embaixo da mesma roseira.";
 
-[Police_Station_1270_01]		String = "E agora a Corregedoria quer a sua cabeça numa bandeja de prata.";
+[Police_Station_1080_40]		String = "Viu o que eu quero dizer? Ã‰ disso que eu tÃ´ falando, vocÃª nÃ£o tÃ¡ ouvindo!";
 
-[Police_Station_1280_01]		String = "Eu fiz o que precisava ser feito.";
+[Police_Station_1080_41]		String = "VocÃª nÃ£o consegue entender a gravidade disso!";
 
-[Police_Station_1290_01]		String = "Não me venha com essa ladainha de herói solitário, Payne!";
+[Police_Station_1080_42]		String = "Certo. E como vocÃª gostaria de prosseguir com isso?";
 
-[Police_Station_1300_01]		String = "Nós temos regras! Procedimentos!";
+[Police_Station_1080_43]		String = "Me dÃª uma arma e me solte,";
 
-[Police_Station_1310_01]		String = "Você não pode sair atirando em tudo que se move como se ainda estivesse na sua cruzada pessoal!";
+[Police_Station_1080_44]		String = "e eu resolvo essa bagunÃ§a num piscar de olhos.";
 
-[Police_Station_1320_01]		String = "A Mona Sax está envolvida nisso até o pescoço.";
-[Police_Station_1320_02]		String = "E você sabe muito bem disso.";
+[Police_Station_1080_45]		String = "Certo, espertinho, a hora da comÃ©dia acabou.";
 
-[Police_Station_1330_01]		String = "Eu não tive escolha.";
+[Police_Station_1080_46]		String = "Cala a boca por um instante para eu poder anotar essa porcaria.";
 
-[Police_Station_1340_01]		String = "Sempre tem escolha, Payne!";
-[Police_Station_1340_02]		String = "Ela é uma fugitiva da justiça, procurada por homicídio!";
-[Police_Station_1340_03]		String = "E você tava trabalhando junto com ela!";
-[Police_Station_1340_04]		String = "O que você acha que o promotor vai dizer quando souber disso?";
-[Police_Station_1340_05]		String = "Ele vai te trucidar!";
+[Police_Station_1090_01]		String = "Desculpe, Payne, nÃ£o posso ajudar agora, acabei de desvendar o crime do sÃ©culo.";
 
-[Police_Station_1350_01]		String = "O Círculo Interno tá por trás dos faxineiros.";
+[Police_Station_1090_02]		String = "VÃ¡ escrever o seu prÃ³prio maldito relatÃ³rio.";
 
-[Police_Station_1360_01]		String = "Círculo Interno? De novo essa história de conspiração secreta?";
+[Police_Station_1100_01]		String = "Ei, como se escreve 'psicopata'?";
 
-[Police_Station_1370_01]		String = "Woden limpou a sua ficha há dois anos, Payne. Achei que esse pesadelo tinha acabado.";
+[Police_Station_1100_02]		String = "Ah, sim, agora eu me lembro...";
 
-[Police_Station_1380_01]		String = "Não acabou. Tá só começando.";
+[Police_Station_1100_03]		String = "Pessoa Emocionalmente Perturbada.";
 
-[Police_Station_1400_01]		String = "Escuta aqui: você vai sentar a bunda na sua mesa e vai escrever um relatório detalhado de tudo.";
+[Police_Station_1110_01]		String = "NÃ£o vou dizer mais nenhuma maldita palavra antes de falar com o meu advogado.";
 
-[Police_Station_1410_01]		String = "Sem omitir uma vírgula sequer.";
+[Police_Station_1120_01]		String = "Eu estava adiando o inevitÃ¡vel.";
 
-[Police_Station_1420_01]		String = "Enquanto isso, a Corregedoria vai interrogar você.";
+[Police_Station_1120_02]		String = "Tinha que ir para a minha mesa, comeÃ§ar aquele maldito relatÃ³rio.";
 
-[Police_Station_1425_01]		String = "O detetive Peters já tá te esperando na sala dois.";
-[Police_Station_1425_02]		String = "E é bom você colaborar com ele.";
-[Police_Station_1425_03]		String = "Ouviu bem?";
+[Police_Station_1160_01]		String = "Sim?";
 
-[Police_Station_1430_01]		String = "Entendido, chefe.";
+[Police_Station_1170_01]		String = "Tudo bem.";
 
-[Police_Station_1440_01]		String = "Agora sai da minha frente antes que eu tenha um infarto.";
-[Police_Station_1440_02]		String = "E, Payne...";
-[Police_Station_1440_03]		String = "Mantenha distância das celas.";
-[Police_Station_1440_04]		String = "Não quero você nem perto da Sax.";
+[Police_Station_1180_01]		String = "Melhor chamar a Winterson, ela anda meio nervosa com as ligaÃ§Ãµes dela.";
 
-[Police_Station_1460_01]		String = "Sim, senhor.";
-[Police_Station_1460_02]		String = "Era mais fácil falar do que fazer.";
+[Police_Station_1180_02]		String = "Acho que ela tÃ¡ na sala de interrogatÃ³rio colhendo o depoimento de uma testemunha.";
 
-[Police_Station_1470_01]		String = "Boa sorte com a Corregedoria, Max.";
+[Police_Station_1190_01]		String = "Ela nÃ£o tinha uma queda por vocÃª, Payne?";
 
-[Police_Station_1480_01]		String = "Eles não tão pra brincadeira.";
+[Police_Station_1190_02]		String = "Ouvi dizer que ela arrumou um namorado novo.";
 
-[Police_Station_1485_01]		String = "Valeu pelo aviso.";
+[Police_Station_1190_03]		String = "Uma transa faria bem a ela, Ã´ mulher tensa.";
 
-[Police_Station_1540_01]		String = "Área restrita, detetive. Só com autorização.";
-[Police_Station_1540_02]		String = "Eu sou o detetive encarregado do caso.";
+[Police_Station_1200_01]		String = "Dizem que ela botou o marido pra fora hÃ¡ uns dois anos.";
 
-[Police_Station_1545_01]		String = "O chefe disse que ninguém entra.";
+[Police_Station_1200_02]		String = "Anda cuidando do filho cego sozinha, nÃ£o Ã© Ã  toa que vive nervosa.";
 
-[Police_Station_1550_01]		String = "Tenho ordens para checar a suspeita.";
+[Police_Station_1203_01]		String = "De qualquer forma, ela tÃ¡ falando com uma testemunha ocular na sala de interrogatÃ³rio.";
 
-[Police_Station_1590_01]		String = "Olha só quem resolveu aparecer.";
-[Police_Station_1590_02]		String = "O meu cavaleiro de armadura enferrujada.";
-[Police_Station_1590_03]		String = "Você não devia ter se entregado, Mona.";
-[Police_Station_1590_04]		String = "Eu não me entreguei. Eles me cercaram."; 
-[Police_Station_1590_05]		String = "E além do mais, eu sabia que você viria me ver.";
-[Police_Station_1590_06]		String = "O que você sabe sobre os faxineiros?";
-[Police_Station_1590_07]		String = "Eles trabalham para alguém do Círculo Interno.";
-[Police_Station_1590_08]		String = "Estão eliminando todos os membros rebeldes.";
-[Police_Station_1590_09]		String = "O Corcoran era um deles. O Senador Gate também.";
-[Police_Station_1590_10]		String = "E quem é o chefe deles?";
-[Police_Station_1590_11]		String = "Essa é a pergunta de um milhão de dólares, Max.";
-[Police_Station_1590_12]		String = "Eu fui contratada para matar o homem que comanda tudo isso.";
-[Police_Station_1590_13]		String = "Quem te contratou?";
-[Police_Station_1590_14]		String = "Segredo profissional, querido.";
-[Police_Station_1590_15]		String = "Mona, isso aqui não é um jogo. Você tá numa cela da delegacia de homicídios.";
-[Police_Station_1590_16]		String = "Você acha mesmo que essas grades conseguem me segurar?";
-[Police_Station_1590_17]		String = "Eu me preocuparia mais com você, Max.";
-[Police_Station_1590_18]		String = "Eles sabem que você sabe demais.";
-[Police_Station_1590_19]		String = "Eles vêm atrás de você.";
-[Police_Station_1590_20]		String = "E quando vierem, este lugar vai virar um inferno.";
-[Police_Station_1590_21]		String = "Você precisa me tirar daqui antes que seja tarde.";
+[Police_Station_1205_01]		String = "Como Ã© que alguÃ©m consegue achar alguma coisa aqui dentro?";
 
-[Police_Station_1600_01]		String = "Ei, dotô! Me arruma um cigarro aí!";
-[Police_Station_1600_02]		String = "Só um traguinho, pelo amor de Deus!";
+[Police_Station_1207_01]		String = "O reconhecimento de suspeitos ainda nÃ£o tinha comeÃ§ado.";
 
-[Police_Station_1620_01]		String = "Tô com a garganta mais seca que o Saara!";
-[Police_Station_1620_02]		String = "Ninguém tem compaixão de um pobre coitado?";
+[Police_Station_1207_02]		String = "Dava tempo de ir atÃ© a minha mesa enquanto esperava, e comeÃ§ar aquele relatÃ³rio.";
 
-[Police_Station_1630_01]		String = "Essa mulher aí do lado é o próprio capeta em forma de gente!";
-[Police_Station_1630_02]		String = "Ela me olhou com uma cara que quase me fez cagar nas calças!";
+[Police_Station_1208_01]		String = "NÃºmero um, obrigada, pode dar um passo para trÃ¡s.";
 
-[Police_Station_1660_01]		String = "Necrotério no subsolo.";
+[Police_Station_1210_01]		String = "Eles nÃ£o podem ver vocÃª atravÃ©s do vidro. NÃ£o tenha pressa,";
 
-[Police_Station_1665_01]		String = "Boa tarde, Max.";
-[Police_Station_1665_02]		String = "Temos bastante trabalho hoje.";
+[Police_Station_1210_02]		String = "veja se reconhece algum deles. Tudo bem?";
 
-[Police_Station_1670_01]		String = "O corpo do Corcoran acabou de chegar.";
-[Police_Station_1670_02]		String = "Crivado de balas, calibre nove milímetros e doze.";
-[Police_Station_1670_03]		String = "Foi uma execução profissional.";
-[Police_Station_1670_04]		String = "Sem dúvida alguma.";
-[Police_Station_1670_05]		String = "Achou alguma coisa incomum?";
-[Police_Station_1670_06]		String = "Só o fato de ele ter engolido uma cápsula vazia antes de morrer.";
-[Police_Station_1670_07]		String = "Como assim?";
-[Police_Station_1670_08]		String = "Parece uma mensagem dos assassinos.";
-[Police_Station_1670_09]		String = "Uma assinatura macabra.";
+[Police_Station_1220_01]		String = "Sim, tudo bem.";
 
-[Police_Station_1690_01]		String = "Preciso continuar as autópsias.";
+[Police_Station_1230_01]		String = "Eu precisava acompanhar a situaÃ§Ã£o da Mona.";
 
-[Police_Station_1700_01]		String = "Vou dar uma olhada na sala de armas.";
+[Police_Station_1240_01]		String = "NÃºmero dois. DÃª um passo Ã  frente e diga a frase que lhe deram.";
 
-[Police_Station_1710_01]		String = "Armamento apreendido sob custódia.";
+[Police_Station_1270_01]		String = "Eu nÃ£o sei ler.";
 
-[Police_Station_1720_01]		String = "Assine o livro de registros primeiro, detetive.";
+[Police_Station_1280_01]		String = "Apenas repita a frase dita pelo nÃºmero um.";
 
-[Police_Station_1730_01]		String = "Tudo em ordem.";
+[Police_Station_1290_01]		String = "A senhora acha que eu tava prestando atenÃ§Ã£o?";
 
-[Police_Station_1740_01]		String = "A Winterson estava na sala de descanso.";
+[Police_Station_1300_01]		String = "'VocÃª nÃ£o passa de um bandido de um braÃ§o sÃ³.'";
 
-[Police_Station_1750_01]		String = "Ela parecia tensa, distante.";
+[Police_Station_1310_01]		String = "Idiota. VocÃª nÃ£o passa de um bandido de um braÃ§o sÃ³.";
 
-[Police_Station_1760_01]		String = "Max.";
+[Police_Station_1320_01]		String = "Obrigada. DÃª um passo para trÃ¡s, nÃºmero dois.";
 
-[Police_Station_1770_01]		String = "Valerie. Como você tá?";
+[Police_Station_1320_02]		String = "NÃºmero trÃªs.";
 
-[Police_Station_1780_01]		String = "Cansada. Essa guerra nas ruas tá acabando com todo mundo.";
+[Police_Station_1330_01]		String = "VocÃª nÃ£o passa de um bandido de um braÃ§o sÃ³.";
 
-[Police_Station_1781_01]		String = "Você devia descansar um pouco.";
-[Police_Station_1781_02]		String = "Descanso é um luxo que a gente não tem.";
+[Police_Station_1340_01]		String = "Eu nÃ£o devia reconhecer algum dos homens de macacÃ£o?";
 
-[Police_Station_1782_01]		String = "O que você sabe sobre os faxineiros, Max?";
+[Police_Station_1340_02]		String = "Isso nÃ£o Ã© da sua conta. Apenas se concentre na tarefa.";
 
-[Police_Station_1783_01]		String = "Eles não são criminosos comuns.";
-[Police_Station_1783_02]		String = "São mercenários bem treinados, com armamento militar.";
-[Police_Station_1783_03]		String = "Alguém tá financiando tudo isso com rios de dinheiro.";
-[Police_Station_1783_04]		String = "E você acha que tem a ver com a Mona Sax?";
-[Police_Station_1783_05]		String = "Acho que ela é só uma peça no tabuleiro.";
-[Police_Station_1783_06]		String = "Assim como nós dois.";
-[Police_Station_1783_07]		String = "Tome cuidado, Max.";
-[Police_Station_1783_08]		String = "As pessoas ao seu redor costumam se machucar.";
-[Police_Station_1783_09]		String = "Eu sei.";
-[Police_Station_1783_10]		String = "Não precisa me lembrar.";
+[Police_Station_1340_03]		String = "Reconhece algum deles?";
 
-[Police_Station_1785_01]		String = "Valerie...";
+[Police_Station_1340_04]		String = "Ã‰, foi o nÃºmero trÃªs.";
 
-[Police_Station_1788_01]		String = "Sim?";
-[Police_Station_1788_02]		String = "Sobre o armazém ontem à noite...";
-[Police_Station_1788_03]		String = "Esquece isso.";
-[Police_Station_1788_04]		String = "O importante é que você saiu de lá vivo.";
-[Police_Station_1788_05]		String = "Obrigado por cobrir minhas costas.";
-[Police_Station_1788_06]		String = "É o trabalho de um parceiro.";
-[Police_Station_1788_07]		String = "Mesmo quando você não facilita as coisas.";
-[Police_Station_1788_08]		String = "Eu tento.";
-[Police_Station_1788_09]		String = "Tente com mais força.";
+[Police_Station_1340_05]		String = "Obrigada.";
 
-[Police_Station_1790_01]		String = "Ela tinha razão. Eu era um ímã de desgraça.";
+[Police_Station_1350_01]		String = "Certo, terminamos, levem eles embora.";
 
-[Police_Station_1792_01]		String = "A Corregedoria estava esperando por mim.";
+[Police_Station_1360_01]		String = "Certo, mocinhas, ouviram ela. Por aqui.";
 
-[Police_Station_1800_01]		String = "Detetive Payne. Entre e feche a porta.";
-[Police_Station_1800_02]		String = "Detetive Peters. Imagino que queira explicações.";
+[Police_Station_1370_01]		String = "Pode esperar aqui, alguÃ©m virÃ¡ buscÃ¡-lo assim que a papelada estiver pronta.";
 
-[Police_Station_1810_01]		String = "Explicações seriam um começo refrescante, Payne.";
+[Police_Station_1380_01]		String = "Eu queria falar com a testemunha da Winterson assim que ela terminasse com ele.";
 
-[Police_Station_1820_01]		String = "Seu histórico nesta corporação é, no mínimo... peculiar.";
+[Police_Station_1400_01]		String = "Eu tentei te ajudar, Max, mas vocÃª nÃ£o ouviu. Agora Ã© tarde demais.";
 
-[Police_Station_1823_01]		String = "Dois anos atrás você deixou um rastro de mais de cem cadáveres pela cidade,";
+[Police_Station_1410_01]		String = "Isso Ã© importante.";
 
-[Police_Station_1825_01]		String = "e de alguma forma saiu limpo, como se nada tivesse acontecido.";
+[Police_Station_1420_01]		String = "Ã‰ tarde demais, Payne.";
 
-[Police_Station_1830_01]		String = "Fui inocentado de todas as acusações.";
+[Police_Station_1425_01]		String = "Eu estava do seu lado, Max.";
 
-[Police_Station_1840_01]		String = "Graças a amigos influentes em lugares muito altos.";
+[Police_Station_1425_02]		String = "NÃ£o importa agora, vocÃª fez a sua escolha, quis fazer do seu jeito.";
 
-[Police_Station_1850_01]		String = "Mas agora seus velhos hábitos parecem estar voltando à tona.";
+[Police_Station_1425_03]		String = "Estou ocupada, Max. VÃ¡ embora.";
 
-[Police_Station_1860_01]		String = "Homicídios na marina, tiroteio em restaurante russo,";
-[Police_Station_1860_02]		String = "e agora um banho de sangue no Upper East Side.";
+[Police_Station_1430_01]		String = "Detetive Payne. Alguma coisa que queira acrescentar?";
 
-[Police_Station_1870_01]		String = "Eu estava apenas respondendo a chamados de emergência.";
-[Police_Station_1870_02]		String = "Chamados onde você coincidentemente sempre se encontra com a fugitiva Mona Sax.";
+[Police_Station_1440_01]		String = "Como eu estava tentando dizer para a outra detetive,";
 
-[Police_Station_1880_01]		String = "Qual é a sua relação com ela, Payne?";
+[Police_Station_1440_02]		String = "o lugar estava infestado de caras com macacÃµes cinzas.";
 
-[Police_Station_1890_01]		String = "Não existe relação.";
-[Police_Station_1890_02]		String = "Ela é uma testemunha e uma suspeita.";
-[Police_Station_1890_03]		String = "Ela é uma assassina profissional!"; 
-[Police_Station_1890_04]		String = "E você está acobertando ela!";
-[Police_Station_1890_05]		String = "Isso é um absurdo.";
-[Police_Station_1890_06]		String = "Absurdo é você ainda ter esse distintivo preso no cinto!";
-[Police_Station_1890_07]		String = "Temos testemunhas que colocam você ajudando a fuga dela.";
-[Police_Station_1890_08]		String = "Testemunhas que trabalham para uma quadrilha de assassinos de aluguel?";
-[Police_Station_1890_09]		String = "Não tente mudar de assunto, Payne.";
-[Police_Station_1890_10]		String = "Você está sob investigação formal por conduta imprópria e obstrução da justiça.";
-[Police_Station_1890_11]		String = "Entregue sua arma e seu distintivo.";
-[Police_Station_1890_12]		String = "O tenente Bravura sabe disso?";
-[Police_Station_1890_13]		String = "O tenente Bravura não manda na Corregedoria.";
-[Police_Station_1890_14]		String = "A arma, Payne. Agora.";
-[Police_Station_1890_15]		String = "Espere um segundo. Você ouviu isso?";
-[Police_Station_1890_16]		String = "Não tente me enrolar...";
-[Police_Station_1890_17]		String = "Cale a boca e escute!";
-[Police_Station_1890_18]		String = "Tem alguma coisa errada lá fora.";
-[Police_Station_1890_19]		String = "Que barulho foi esse?";
-[Police_Station_1890_20]		String = "Parece uma...";
-[Police_Station_1890_21]		String = "CUIDADO!";
-[Police_Station_1890_22]		String = "O estrondo sacudiu a estrutura de concreto do prédio até as fundações.";
-[Police_Station_1890_23]		String = "Uma bomba. Na delegacia.";
-[Police_Station_1890_24]		String = "Os faxineiros tinham vindo terminar o serviço.";
-[Police_Station_1890_25]		String = "Peters estava atordoado no chão, soterrado por papéis e poeira de gesso.";
-[Police_Station_1890_26]		String = "Peguei minha arma de volta.";
-[Police_Station_1890_27]		String = "A Corregedoria teria que esperar.";
-[Police_Station_1890_28]		String = "Eu precisava chegar até a Mona antes que eles chegassem.";
-[Police_Station_1890_29]		String = "Alarme de incêndio disparando.";
-[Police_Station_1890_30]		String = "Tiros no saguão principal.";
-[Police_Station_1890_31]		String = "Gritos de pânico nos corredores.";
-[Police_Station_1890_32]		String = "A delegacia tinha se transformado em uma zona de guerra.";
-[Police_Station_1890_33]		String = "O inferno tinha vindo nos visitar em casa.";
-[Police_Station_1890_34]		String = "E eu estava bem no olho do furacão.";
+[Police_Station_1440_03]		String = "E com certeza eles nÃ£o estavam lÃ¡ pra limpar o lugar.";
 
-[Police_Station_1900_01]		String = "Fogo! Estamos sob ataque!";
-[Police_Station_1900_02]		String = "Chamem reforços! Código 10-13! Policial em perigo!";
-[Police_Station_1900_03]		String = "Eles entraram pelo depósito de evidências!";
+[Police_Station_1440_04]		String = "Mas ela nÃ£o estava muito a fim de me ouvir.";
 
-[Police_Station_1905_01]		String = "Derrubem os intrusos!";
+[Police_Station_1460_01]		String = "Ã‰ difÃ­cil dizer quem queria matar quem, mas a garota que acabei de apontar,";
 
-[Police_Station_1910_01]		String = "Muralha de contenção rompida!";
-[Police_Station_1910_02]		String = "Tem atiradores nos dois flancos!";
-[Police_Station_1910_03]		String = "Recuem para a recepção!";
-[Police_Station_1910_04]		String = "Não deixem eles avançarem pras celas!";
-[Police_Station_1910_05]		String = "Segurem a posição!";
+[Police_Station_1460_02]		String = "e os caras de macacÃ£o entraram num tiroteio pesado.";
 
-[Police_Station_1920_01]		String = "Payne! Pega aquela escopeta!";
-[Police_Station_1920_02]		String = "Eles estão jogando fumaça!";
-[Police_Station_1920_03]		String = "Cuidado com as granadas!";
-[Police_Station_1920_04]		String = "Na escadaria! Eles tão subindo a escadaria!";
-[Police_Station_1920_05]		String = "Fogo neles!";
+[Police_Station_1470_01]		String = "Certo. Obrigado.";
 
-[Police_Station_1930_01]		String = "A cela da Mona estava arrombada.";
-[Police_Station_1930_02]		String = "Ela tinha escapado no meio da confusão.";
+[Police_Station_1480_01]		String = "NÃ£o, obrigado a vocÃª.";
 
-[Police_Station_1960_01]		String = "O guarda da carceragem estava no chão, apagado.";
-[Police_Station_1960_02]		String = "Mas ainda respirava. Menos mal.";
+[Police_Station_1485_01]		String = "Nunca estive numa delegacia antes. Muito empolgante.";
 
-[Police_Station_1970_01]		String = "Mais comandos armados entrando pela garagem!";
-[Police_Station_1970_02]		String = "Bloqueiem as saídas de emergência!";
+[Police_Station_1540_01]		String = "Eu precisava falar com a Mona.";
 
-[Police_Station_1980_01]		String = "Eliminem todas as testemunhas!";
-[Police_Station_1980_02]		String = "Achem a mulher e matem o policial!";
+[Police_Station_1540_02]		String = "AtrÃ¡s das grades, ela nÃ£o iria a lugar nenhum antes de me dar respostas.";
 
-[Police_Station_2000_01]		String = "Bravura estava no rádio berrando por socorro.";
-[Police_Station_2000_02]		String = "A linha telefônica externa tinha sido cortada.";
+[Police_Station_1545_01]		String = "As celas ficavam no subsolo.";
 
-[Police_Station_2005_01]		String = "Estamos sozinhos nessa.";
+[Police_Station_1550_01]		String = "O reconhecimento tinha terminado. A Mona estava de volta Ã  cela.";
 
-[Police_Station_2010_01]		String = "Eu precisava sair do prédio e encontrar a Mona.";
+[Police_Station_1590_01]		String = "Quero registrar uma queixa.";
 
-[Police_Station_2020_01]		String = "A fumaça preta tomava conta dos corredores.";
+[Police_Station_1590_02]		String = "Veio ao lugar certo.";
 
-[Police_Station_2023_01]		String = "A van dos faxineiros estava na garagem dos fundos.";
+[Police_Station_1590_03]		String = "Certo, entÃ£o o meu namorado, aquele idiota fracassado, passa o dia todo de bunda no sofÃ¡";
 
-[Police_Station_2025_01]		String = "Tinha homens fortemente armados montando guarda.";
+[Police_Station_1590_04]		String = "e nÃ£o para de jogar esses videogames idiotas,";
 
-[Police_Station_2027_01]		String = "Eles não esperavam que alguém saísse vivo dali.";
+[Police_Station_1590_05]		String = "sabe, o idiota do Dick Justice e essas coisas,";
 
-[Police_Station_2028_01]		String = "Estavam prestes a ter uma surpresa desagradável.";
+[Police_Station_1590_06]		String = "nÃ£o vai trabalhar, nem me dÃ¡ atenÃ§Ã£o.";
 
-[Police_Station_2030_01]		String = "Lá está ele! Atirem!";
+[Police_Station_1590_07]		String = "Infelizmente, ser um babaca nÃ£o Ã© crime.";
 
-[Police_Station_2040_01]		String = "Não deixem ele chegar na van!";
+[Police_Station_1590_08]		String = "NÃ£o, nÃ£o, eu nÃ£o terminei, jÃ¡ vou chegar lÃ¡.";
 
-[Police_Station_2050_01]		String = "Com os faxineiros mortos na garagem,";
-[Police_Station_2050_02]		String = "o caminho até a rua estava aberto.";
+[Police_Station_1590_09]		String = "AÃ­ eu me cansei de verdade e joguei a televisÃ£o pela janela.";
 
-[Police_Station_2060_01]		String = "Sirenes ao longe rasgavam a noite chuvosa.";
-[Police_Station_2060_02]		String = "Tarde demais para evitar o desastre.";
+[Police_Station_1590_10]		String = "Era minha, posso fazer o que eu quiser com ela, nÃ£o Ã©?";
 
-[Police_Station_2180_01]		String = "A Mona tinha ido embora, sumido na escuridão.";
+[Police_Station_1590_11]		String = "Desde que ninguÃ©m tenha se machucado.";
 
-[Police_Station_2200_01]		String = "Ela tinha deixado um bilhete no banco do meu carro:";
-[Police_Station_2200_02]		String = "'Parque de Diversões. Me encontre lá.'";
+[Police_Station_1590_12]		String = "Foi o que eu disse a ele.";
 
-[Police_Station_2210_01]		String = "Eu sabia que era uma loucura.";
+[Police_Station_1590_13]		String = "Na verdade ele Ã© meu ex, mas agora o doente tÃ¡ ameaÃ§ando me matar,";
 
-[Police_Station_2220_01]		String = "Mas a loucura já tinha virado a minha rotina.";
+[Police_Station_1590_14]		String = "isso Ã© crime, nÃ£o Ã©?";
 
-[Police_Station_2230_01]		String = "Engatei a primeira e acelerei noite adentro.";
+[Police_Station_1590_15]		String = "Ele anda jogando aqueles videogames demais.";
+
+[Police_Station_1590_16]		String = "Isso faz dele um Ã³timo atirador.";
+
+[Police_Station_1590_17]		String = "Segurar aquele controle Ã© como segurar uma arma, dizem no noticiÃ¡rio.";
+
+[Police_Station_1590_18]		String = "VocÃªs tÃªm que me ajudar, temo pela minha vida!";
+
+[Police_Station_1590_19]		String = "Certo, senhorita, sente-se um instante e anotaremos seu nome e endereÃ§o,";
+
+[Police_Station_1590_20]		String = "e veremos o que podemos fazer.";
+
+[Police_Station_1590_21]		String = "TÃ¡ bom.";
+
+[Police_Station_1600_01]		String = "Ouviu isso? Armas nÃ£o matam pessoas, videogames matam pessoas.";
+
+[Police_Station_1600_02]		String = "CÃ©us. Bem-vindo Ã  cidade de Nova York.";
+
+[Police_Station_1620_01]		String = "Por que tÃ¡ tÃ£o quente aqui dentro? Ã‰ outono e tÃ¡ chovendo lÃ¡ fora.";
+
+[Police_Station_1620_02]		String = "AlguÃ©m desregulou o ar-condicionado de novo?";
+
+[Police_Station_1630_01]		String = "Eu nÃ£o teria medo de ir para casa se vocÃª estivesse lÃ¡. Posso te dar meu telefone,";
+
+[Police_Station_1630_02]		String = "caso sinta vontade de 'proteger' alguÃ©m no meio da noite.";
+
+[Police_Station_1660_01]		String = "Pensei em ir embora, sumir na noite. Eu nÃ£o consegui.";
+
+[Police_Station_1665_01]		String = "Pelo amor de Deus! Ã‰ pedir demais um pouco de privacidade?";
+
+[Police_Station_1665_02]		String = "Vou sair quando estiver pronto.";
+
+[Police_Station_1670_01]		String = "CafÃ© bom. Eu vi isso em algum lugar. 'CafÃ© bom:";
+
+[Police_Station_1670_02]		String = "Negro como o inferno, forte como a morte e doce como o amor.'";
+
+[Police_Station_1670_03]		String = "Sabe o que me irrita? E isso acontece o tempo todo,";
+
+[Police_Station_1670_04]		String = "alguÃ©m vem pegar uma xÃ­cara de cafÃ©,";
+
+[Police_Station_1670_05]		String = "e deixa sÃ³ um dedinho no fundo da cafeteira";
+
+[Police_Station_1670_06]		String = "sÃ³ para nÃ£o ter que passar mais cafÃ©. Odeio isso!";
+
+[Police_Station_1670_07]		String = "Concordo com vocÃª.";
+
+[Police_Station_1670_08]		String = "Gente assim devia ser levada para trÃ¡s da caÃ§amba de lixo e fuzilada.";
+
+[Police_Station_1670_09]		String = "Tenho pensado em trazer a minha prÃ³pria cafeteira para cÃ¡.";
+
+[Police_Station_1690_01]		String = "Foi mal, Payne, vocÃª perdeu, acabei de me servir da Ãºltima xÃ­cara.";
+
+[Police_Station_1700_01]		String = "VocÃª sempre pode fazer mais, Payne.";
+
+[Police_Station_1710_01]		String = "Esse cafÃ© tÃ¡ muito bom, alguÃ©m sabe quem fez?";
+
+[Police_Station_1720_01]		String = "Payne, foi vocÃª que fez? TÃ¡ muito bom mesmo.";
+
+[Police_Station_1730_01]		String = "Devia voltar ao trabalho, os bandidos nÃ£o tiram intervalo para o cafÃ©.";
+
+[Police_Station_1740_01]		String = "NÃ£o, melhor ficar aqui, vigiando a cafeteira, alguÃ©m pode roubar.";
+
+[Police_Station_1750_01]		String = "Ei! A gente tÃ¡ assistindo isso.";
+
+[Police_Station_1760_01]		String = "Saia da frente, Payne.";
+
+[Police_Station_1770_01]		String = "Ei! A gente tava assistindo isso.";
+
+[Police_Station_1780_01]		String = "Babaca.";
+
+[Police_Station_1781_01]		String = "Ei, mandou bem, Payne! Bom trabalho.";
+
+[Police_Station_1781_02]		String = "Se ainda fosse verÃ£o, vocÃª jÃ¡ seria um homem morto a essa altura.";
+
+[Police_Station_1782_01]		String = "Ã‰ melhor vocÃª comeÃ§ar a rezar para nÃ£o termos um verÃ£o tardio, Payne.";
+
+[Police_Station_1783_01]		String = "10-4, entendido.";
+
+[Police_Station_1783_02]		String = "Repita.";
+
+[Police_Station_1783_03]		String = "Pode confirmar isso?";
+
+[Police_Station_1783_04]		String = "Certo. Aguarde.";
+
+[Police_Station_1783_05]		String = "Prossiga.";
+
+[Police_Station_1783_06]		String = "Negativo.";
+
+[Police_Station_1783_07]		String = "Pode confirmar o endereÃ§o?";
+
+[Police_Station_1783_08]		String = "Copiado.";
+
+[Police_Station_1783_09]		String = "Certo. Pode repetir a placa?";
+
+[Police_Station_1783_10]		String = "Investigue a fundo.";
+
+[Police_Station_1785_01]		String = "Desculpe, detetive, nÃ£o posso ajudar agora, preciso atender esta ligaÃ§Ã£o.";
+
+[Police_Station_1788_01]		String = "Como espera que alguÃ©m se lembre do seu nome";
+
+[Police_Station_1788_02]		String = "se vocÃª mesmo nÃ£o sabe soletrar direito, Broussard?";
+
+[Police_Station_1788_03]		String = "Ã‰ posicionamento bÃ¡sico, tudo comeÃ§a com o nome.";
+
+[Police_Station_1788_04]		String = "Nada disso importa. Quando eu resolver este caso, Miller, eles vÃ£o se lembrar.";
+
+[Police_Station_1788_05]		String = "AtÃ© parece que vocÃª vai resolver.";
+
+[Police_Station_1788_06]		String = "Vai ficar pronto quando estiver pronto.";
+
+[Police_Station_1788_07]		String = "Vou fazer direito. O importante Ã© o espÃ­rito da lei, nÃ£o a letra.";
+
+[Police_Station_1788_08]		String = "Vou ficar na sua cola atÃ© vocÃª resolver.";
+
+[Police_Station_1788_09]		String = "VocÃª jÃ¡ botou uma cobra na minha cama, o que mais vocÃª pode fazer?";
+
+[Police_Station_1790_01]		String = "Ei, Payne. 'Max Payne', eis um nome marcante para vocÃª.";
+
+[Police_Station_1792_01]		String = "'Posicionamento.' Como se fosse disso que se trata o trabalho.";
+
+[Police_Station_1800_01]		String = "Quer entrar na carceragem?";
+
+[Police_Station_1800_02]		String = "Apenas aperte o interfone junto Ã  porta, o Petersburg vai liberar sua entrada.";
+
+[Police_Station_1810_01]		String = "NÃ£o tem nada mais chato do que ficar sentado atrÃ¡s desta mesa.";
+
+[Police_Station_1820_01]		String = "Sim?";
+
+[Police_Station_1823_01]		String = "Aqui Ã© o Payne, preciso do depoimento de Mona Sax.";
+
+[Police_Station_1825_01]		String = "Foi mal, Payne. Ela tÃ¡ lÃ¡ em cima no reconhecimento.";
+
+[Police_Station_1830_01]		String = "Aqui Ã© o Payne, preciso do depoimento de um dos seus clientes.";
+
+[Police_Station_1840_01]		String = "Mona Sax?";
+
+[Police_Station_1850_01]		String = "A Ãºltima cela no corredor Ã  sua esquerda.";
+
+[Police_Station_1860_01]		String = "Mona Sax, hein?";
+
+[Police_Station_1860_02]		String = "Maldito sortudo, eu nÃ£o me importaria de colher o depoimento dela.";
+
+[Police_Station_1870_01]		String = "Ã‰, ela Ã© uma gata. Ela matou alguÃ©m? Melhor tomar cuidado, Payne.";
+
+[Police_Station_1870_02]		String = "Bem 'Instinto Selvagem'.";
+
+[Police_Station_1880_01]		String = "A sua 'femme fatale' fica no fim do corredor Ã  sua esquerda.";
+
+[Police_Station_1890_01]		String = "Olha que cagada, cara.";
+
+[Police_Station_1890_02]		String = "Cagada das grandes.";
+
+[Police_Station_1890_03]		String = "Nem me fale.";
+
+[Police_Station_1890_04]		String = "Quer dizer, lÃ¡ estava eu, dirigindo um carro roubado, a caminho do ferro-velho";
+
+[Police_Station_1890_05]		String = "para encher o porta-malas de armas ilegais para vender.";
+
+[Police_Station_1890_06]		String = "Veja bem, eu ainda nÃ£o estava com elas,";
+
+[Police_Station_1890_07]		String = "a essa altura, tirando o carro roubado,";
+
+[Police_Station_1890_08]		String = "eu sou um cidadÃ£o cumpridor da lei,";
+
+[Police_Station_1890_09]		String = "a essa altura eu ainda estava sÃ³ a caminho de buscar as armas.";
+
+[Police_Station_1890_10]		String = "AÃ­ os tiras me mandam encostar.";
+
+[Police_Station_1890_11]		String = "Que foda.";
+
+[Police_Station_1890_12]		String = "Ã‰ o que eu tÃ´ te dizendo.";
+
+[Police_Station_1890_13]		String = "Foi o que eu pensei quando eles me pararam:";
+
+[Police_Station_1890_14]		String = "'Que merda.' E quer saber de uma coisa,";
+
+[Police_Station_1890_15]		String = "eles nÃ£o estavam nem aÃ­ para o carro.";
+
+[Police_Station_1890_16]		String = "NÃ£o brinca!";
+
+[Police_Station_1890_17]		String = "Essa Ã© a ironia!";
+
+[Police_Station_1890_18]		String = "Era uma daquelas blitz de 'se beber, nÃ£o dirija'.";
+
+[Police_Station_1890_19]		String = "Tudo o que eles queriam era que eu soprasse o bafÃ´metro.";
+
+[Police_Station_1890_20]		String = "NÃ£o brinca!";
+
+[Police_Station_1890_21]		String = "Sem zoeira. EntÃ£o, com um suspiro de alÃ­vio, eu faÃ§o o maldito teste.";
+
+[Police_Station_1890_22]		String = "E bem quando termina, quando estÃ£o prestes a me liberar pra ir embora -";
+
+[Police_Station_1890_23]		String = "Ih, rapaz!";
+
+[Police_Station_1890_24]		String = "Os olhos do tira travam";
+
+[Police_Station_1890_25]		String = "em algo aparecendo embaixo do banco.";
+
+[Police_Station_1890_26]		String = "Fim de jogo.";
+
+[Police_Station_1890_27]		String = "O quÃª?";
+
+[Police_Station_1890_28]		String = "A porra de um revÃ³lver! Eu nem sabia que tava lÃ¡.";
+
+[Police_Station_1890_29]		String = "Devia ser do dono do carro.";
+
+[Police_Station_1890_30]		String = "Sem registro. E acaba sendo a arma de um homicÃ­dio. Olha que azar da porra!";
+
+[Police_Station_1890_31]		String = "Cagada das grandes.";
+
+[Police_Station_1890_32]		String = "E vocÃª, tÃ¡ preso por quÃª?";
+
+[Police_Station_1890_33]		String = "Quem, eu? Dirigir bÃªbado.";
+
+[Police_Station_1890_34]		String = "Que foda.";
+
+[Police_Station_1900_01]		String = "De novo nÃ£o. Jesus, de novo nÃ£o!";
+
+[Police_Station_1900_02]		String = "Bem quando tÃ­nhamos nos livrado do fedor da Ãºltima vez.";
+
+[Police_Station_1900_03]		String = "Petersburg! Eu pareÃ§o faxineiro pra vocÃª?";
+
+[Police_Station_1905_01]		String = "VocÃª tÃ¡ indo bem! Respira pela boca!";
+
+[Police_Station_1910_01]		String = "Desculpa, desculpa, nÃ£o dÃ¡ para evitar, sÃ£o as visÃµes na minha cabeÃ§a,";
+
+[Police_Station_1910_02]		String = "tÃ£o horrÃ­veis, tenho que botar pra fora para poder enxergar,";
+
+[Police_Station_1910_03]		String = "sÃ£o iguaizinhas a isso, todos vocÃªs vÃ£o morrer,";
+
+[Police_Station_1910_04]		String = "vocÃªs sabem, tÃ¡ claro como o dia, dÃ¡ pra ver ali,";
+
+[Police_Station_1910_05]		String = "todos vocÃªs vÃ£o morrer.";
+
+[Police_Station_1920_01]		String = "TÃ´ a noite inteira limpando a sujeira desse crapula.";
+
+[Police_Station_1920_02]		String = "A coisa tÃ¡ feia.";
+
+[Police_Station_1920_03]		String = "Ã‰, e o cheiro tÃ¡ pior ainda.";
+
+[Police_Station_1920_04]		String = "VocÃªs todos vÃ£o morrer.";
+
+[Police_Station_1920_05]		String = "Quem dera...";
+
+[Police_Station_1930_01]		String = "Servir e proteger a cidade de Nova York do vÃ´mito.";
+
+[Police_Station_1930_02]		String = "Ã€s vezes este trabalho me dÃ¡ nÃ¡useas.";
+
+[Police_Station_1960_01]		String = "Eu nÃ£o queria ter nada a ver com o Woden.";
+
+[Police_Station_1960_02]		String = "Deveria ter ligado para ele no instante em que o CÃ­rculo Interno foi mencionado.";
+
+[Police_Station_1970_01]		String = "A porta da garagem da delegacia estava trancada,";
+
+[Police_Station_1970_02]		String = "exceto quando traziam suspeitos sob custÃ³dia.";
+
+[Police_Station_1980_01]		String = "Como a moÃ§a diz, todos nÃ³s vamos morrer,";
+
+[Police_Station_1980_02]		String = "vÃ´mito nÃ£o Ã© bonito, mas nunca mente.";
+
+[Police_Station_2000_01]		String = "Quer dizer, com certeza, pra mim tudo bem ter o Hannibal Lecter preso toda noite,";
+
+[Police_Station_2000_02]		String = "desde que ele segurasse o conteÃºdo do estÃ´mago.";
+
+[Police_Station_2005_01]		String = "O ar-condicionado quebrou de novo. Nunca vamos nos livrar desse fedor.";
+
+[Police_Station_2010_01]		String = "Posso usar o seu telefone?";
+
+[Police_Station_2020_01]		String = "Tem um passando pela porta atrÃ¡s de vocÃª, pode usar aquele.";
+
+[Police_Station_2023_01]		String = "Jogar um basquete mais tarde?";
+
+[Police_Station_2025_01]		String = "O enterro Ã© seu.";
+
+[Police_Station_2027_01]		String = "E aÃ­, Payne?";
+
+[Police_Station_2028_01]		String = "Nada para ver aqui, circulem, nada para ver.";
+
+[Police_Station_2030_01]		String = "Preciso fazer uma ligaÃ§Ã£o.";
+
+[Police_Station_2040_01]		String = "Pode usar este telefone.";
+
+[Police_Station_2050_01]		String = "VocÃª ligou para a caixa postal do Senador Alfred Woden.";
+
+[Police_Station_2050_02]		String = "Por favor, deixe uma mensagem.";
+
+[Police_Station_2060_01]		String = "Woden? Ã‰ o Max Payne. Precisamos conversar.";
+
+[Police_Station_2060_02]		String = "Se quer saber, vocÃª ainda me deve uma.";
+
+[Police_Station_2180_01]		String = "Eu precisava de uma arma para passar pelos faxineiros.";
+
+[Police_Station_2200_01]		String = "Eu vi!";
+
+[Police_Station_2200_02]		String = "Eu vi, estÃ£o todos mortos!";
+
+[Police_Station_2210_01]		String = "Acabem com ele!";
+
+[Police_Station_2220_01]		String = "Socorro... alguÃ©m... policial ferido!";
+
+[Police_Station_2230_01]		String = "Petersburg...";
+
