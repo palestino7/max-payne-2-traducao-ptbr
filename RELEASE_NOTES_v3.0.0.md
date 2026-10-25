@@ -31,3 +31,7 @@ d29aae73f2c96a48648e2929ce6d16d93142675fda8bd7508bccf8bfdf7b7f25  Instalador_Max
 dd9a9f13b320b2856e60be9a7a1499bc8a282c1cfa5038e5009552239b566d60  MaxPayne2_PTBR.mp2m
 324621e51b1422bf6f85bba64396d500b1caedb8e63f2fc92f8849d2f42f4b77  MP2_English_PTBR.ras
 ```
+
+### 🛡️ Relatório Antivírus Oficial (VirusTotal):
+O executável oficial foi escaneado e validado publicamente no VirusTotal com **0 detecções**:
+- 🔗 **[Verificar Análise Pública no VirusTotal (0/72 Limpo)](https://www.virustotal.com/gui/file/119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793?nocache=1)**

@@ -11,6 +11,7 @@
 
 [![Versão](https://img.shields.io/badge/Vers%C3%A3o-3.0.0%20Definitiva-991b1b?style=for-the-badge)](https://github.com/palestino7/max-payne-2-traducao-ptbr/releases)
 [![Idioma](https://img.shields.io/badge/Idioma-Portugu%C3%AAs%20do%20Brasil%20(100%25)-15803d?style=for-the-badge)](#)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-100%25%20Limpo%20(0%20Alertas)-15803d?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793?nocache=1)
 [![Instalador](https://img.shields.io/badge/Instalador-Inno%20Setup%20(100%25%20Seguro)-0284c7?style=for-the-badge)](#-como-instalar)
 [![Compatibilidade](https://img.shields.io/badge/Compatibilidade-Steam%20%7C%20GOG%20%7C%20CD-475569?style=for-the-badge)](#-como-instalar)
 [![Windows](https://img.shields.io/badge/Windows-10%20%26%2011-334155?style=for-the-badge)](#)
@@ -22,6 +23,10 @@
 [![Baixar Instalador Executável](https://img.shields.io/badge/DOWNLOAD%20DIRETO-Instalador%20(.exe)%20%5B306%20MB%5D-b91c1c?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/palestino7/max-payne-2-traducao-ptbr/releases/download/v3.0.0/Instalador_MaxPayne2_PTBR_v3.0.0.exe)  
 [![Baixar em Arquivo ZIP](https://img.shields.io/badge/DOWNLOAD%20RECOMENDADO-Arquivo%20Compactado%20(.zip)%20%5B305%20MB%5D-1d4ed8?style=for-the-badge&logo=zip&logoColor=white)](https://github.com/palestino7/max-payne-2-traducao-ptbr/releases/download/v3.0.0/Instalador_MaxPayne2_PTBR_v3.0.0.zip)  
 *(Recomendamos a versão **.ZIP** caso o seu navegador exiba avisos de download sobre arquivos executáveis recém-lançados)*
+
+<br>
+
+[![Verificação no VirusTotal](https://img.shields.io/badge/Relat%C3%B3rio%20VirusTotal-0%2F72%20Amea%C3%A7as%20(100%25%20Verificado)-0284c7?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793?nocache=1)
 
 <br>
 
@@ -82,13 +87,28 @@ Todas as 29 telas de introdução de capítulos e o modo *Homem Morto Caminhando
 
 ---
 
-## 🛡️ Aviso sobre o Windows SmartScreen (Tela Azul)
+## 🛡️ Segurança Comprovada & Windows SmartScreen
 
-Ao executar instaladores independentes de traduções baixados pela internet, o **Windows 11 / Microsoft Defender SmartScreen** pode exibir uma tela azul de aviso:
+### 🌐 Relatório Oficial no VirusTotal (0 Detecções / 100% Limpo)
+Para total transparência e tranquilidade de todos os jogadores, o arquivo executável oficial foi escaneado e certificado pelos mais de 70 motores de antivírus mundiais no **VirusTotal**:
+
+<div align="center">
+
+[![Relatório Completo no VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F72%20Amea%C3%A7as%20Detectadas%20(100%25%20Limpo)-15803d?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793?nocache=1)
+
+👉 **[Clique aqui para visualizar a análise ao vivo no VirusTotal](https://www.virustotal.com/gui/file/119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793?nocache=1)**  
+*(Resultado: **0 detecções** em motores líderes como Microsoft Defender, Kaspersky, Bitdefender, Avast, ESET, Sophos e Google).*
+
+</div>
+
+<br>
+
+### 💻 Aviso sobre o Windows SmartScreen (Tela Azul)
+Ao executar instaladores independentes recém-lançados baixados pela internet, o **Windows 11 / Microsoft Defender SmartScreen** pode exibir uma tela azul preventiva:
 
 > *"O Windows protegeu o seu computador. O Microsoft Defender SmartScreen impediu a inicialização de um aplicativo não reconhecido."*
 
-**Fique 100% tranquilo:** Este instalador é de código aberto, foi assinado digitalmente por **Palestino7** e verificado no motor oficial do Microsoft Defender com **0 ameaças encontradas (100% Limpo)**.
+**Fique 100% tranquilo:** Este instalador foi assinado digitalmente por **Palestino7**, auditado com 0 ameaças no Microsoft Defender e verificado no VirusTotal.
 
 **Como prosseguir em 2 cliques:**
 1. Na janela azul do SmartScreen, clique em **"Mais informações"**.
@@ -107,6 +127,9 @@ d29aae73f2c96a48648e2929ce6d16d93142675fda8bd7508bccf8bfdf7b7f25  Instalador_Max
 dd9a9f13b320b2856e60be9a7a1499bc8a282c1cfa5038e5009552239b566d60  MaxPayne2_PTBR.mp2m
 324621e51b1422bf6f85bba64396d500b1caedb8e63f2fc92f8849d2f42f4b77  MP2_English_PTBR.ras
 ```
+
+> [!TIP]
+> O hash do executável `119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793` pode ser conferido e validado diretamente no [Relatório Público do VirusTotal](https://www.virustotal.com/gui/file/119b833f981e4fd0109be0821ab43426f188d4fb997010f47d4682a360424793?nocache=1).
 
 ---
 
