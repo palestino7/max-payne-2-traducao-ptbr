@@ -1,0 +1,1239 @@
+#include "..\soundid.h"
+
+[dlg_1000] // RUSSIAN #1 (O.S.): (eager) It's starting! Get in here, quick. It's starting.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1000.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010] // RUSSIAN #1 (O.S.): (eager) It's starting! Get in here, quick. It's starting.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1010.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+// NOTE: Start at same time as dlg_1020
+[dlg_1030_russian2] // RUSSIAN #2 (O.S.): (laughs) All right!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1030_russian2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+// NOTE: Start at same time as dlg_1020
+[dlg_1030_russian3] // RUSSIAN #3: Hey! Turn it this way, so we can see!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1030_russian3.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+// NOTE: Start 39s after dlg_1020
+[dlg_1040_russian1] // RUSSIAN #1 (O.S.): (laughs) I can't stop thinking about Gognitti. Has he gotten the boss' gift already?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1040_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+// NOTE: Start 39s after dlg_1020
+[dlg_1040_russian2] // RUSSIAN #2 (O.S.): (imitates a bomb) Tick tick tick tick, kaboom!(laughs) It's gonna blow his head off!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1040_russian2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+// NOTE: Start 75s after dlg_1020
+[dlg_1050_russian1] // RUSSIAN #1 (O.S.): (laughs) Yeah!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1050_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+// NOTE: Start 75s after dlg_1020
+[dlg_1050_russian2] // RUSSIAN #2 (O.S.): Captain Baseballbat-Boy rules!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1050_russian2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1060] // RUSSIAN #2: Hey! Who's there?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1060.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1070] // RUSSIAN #3: We're closed! Go away, cop! The boss is not here. Without a search warrant you've got no business being here.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1070.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1090] // RUSSIAN #3: You heard me. Get the hell out of here, cop!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1090.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1100] // RUSSIAN #3: You want to play it rough, we can play it rough.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1100.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120] // RUSSIAN #2: You deaf or something? There's nothing for you here.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1120.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1130] // RUSSIAN #4: (angry) You want to die? Okay, we can take care of that.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1130.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1140] // RUSSIAN #3: You were warned, Payne. Now you gonna get it!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1140.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1150] // MAX (V.O.): I had to get through the building to Vlad's office, see if he was there.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1150.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1155] // MIKE (through the speakers) : Alert! An intruder in the house! Ten to one it's Max Payne, coming for the boss.
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1155.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1160] // RUSSIAN #1 (V.O.): (through the speakers) Alert! Alert! An intruder!(lowers his voice) Who do you think it is?
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1160.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1180] // RUSSIAN #1: Stop him before he gets up here.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1180.wav;
+		Volume = 1;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1184_russian1] // RUSSIAN #1: Where is he? Where did he go?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1184_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1184_russian2] // RUSSIAN #2: I don't see him. He's gotta be close.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1184_russian2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1186] // RUSSIAN #1: There! It's Payne!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1186.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_russian1] // RUSSIAN #1: (agitated) Where is she? Where is she? Where did she go?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1190_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_russian2] // RUSSIAN #2: (agitated) I don't see her. She's gotta be close. Stay sharp. She's gotta be close.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1190_russian2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200] // RUSSIAN #1: There! It's Payne!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1200.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1202] // RUSSIAN: Stop him! Is the killer bitch with him?!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1202.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1204_russian1] // RUSSIAN #1: You see anything?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1204_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1204_russian2] // RUSSIAN #2: No. But we'll see him when he steps through the door.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1204_russian2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1206_russian1] // RUSSIAN #1: You see anything?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1206_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1206_russian2] // RUSSIAN #2: No. But we'll see him when he steps through the door.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1206_russian2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1230] // RUSSIAN #1: There! It's Payne! Payne's here!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1230.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1235_russian1] // RUSSIAN #1: He here yet?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1235_russian1.wav;
+		Volume = 0.75;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 15;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1235_russian2] // RUSSIAN #2: What? Can't hear you...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1235_russian2.wav;
+		Volume = 0.75;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 15;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1250] // COMMANDO #1 (O.S.): Okay, we're on a schedule here. Get the guns, get the ammo. We have wiseguys to kill.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1250.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1260] // MAX (V.O.): The cleaning company vans, the cleaner jumpsuits, the illegal firearms: the hard evidence that proved Vlad was behind it all.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1260.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1264_mike] // MIKE : Okay, what's the score? ...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1264_mike.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1264_mike_speaker] // MIKE : (through the speakers) Okay, what's the score? ...
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1264_mike_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1266_mike] // MIKE : Okay, what's the score? ...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1266_mike.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1266_mike_speaker] // MIKE : (through the speakers) Okay, what's the score? ...
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1266_mike_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270_russian1] // RUSSIAN #1 : Okay, what's happening? Somebody, anybody get in here and tell me. I can still hear gunshots. Is she still coming? Stop her! She could be headed here, to the office!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1270_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270_russian1_speaker] // RUSSIAN #1 (through the speakers) : Okay, what's happening? Somebody, anybody get in here and tell me. I can still hear gunshots. Is she still coming? Stop her! She could be headed here, to the office!
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1270_russian1_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280_russian1] // RUSSIAN #1 : Is it the same killer bitch who shot boss in the arm? Stop her! Does she have an army with her? Gognitti's men? Stop them! Everybody get your asses here! Everybody here! Stop them!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1280_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280_russian1_speaker] // RUSSIAN #1 : Is it the same killer bitch who shot boss in the arm? Stop her! Does she have an army with her? Gognitti's men? Stop them! Everybody get your asses here! Everybody here! Stop them!
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1280_russian1_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290_mike] // MIKE : What's taking you so long sheriff? Scared?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1290_mike.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290_mike_speaker] // MIKE (through the speaker) : What's taking you so long sheriff? Scared?
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1290_mike_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1300_mike] // MIKE : There you are! It's high noon, sheriff. Just you and me. Draw!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1300_mike.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1300_mike_speaker] // MIKE (through the speaker) : There you are! It's high noon, sheriff. Just you and me. Draw!
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1300_mike_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1305] // MIKE: AAAHHHH! (dies)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1305.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1310_russian1] // Russian #1 : Is it over? Did somebody get them?...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1310_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1310_russian1_speaker] // RUSSIAN #1 (through the speaker) : Is it over? Did somebody get them?...
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1310_russian1_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1320_russian1] // Russian #1 : No! It's the cop!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1320_russian1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1320_russian1_speaker] // RUSSIAN #1 (through the speaker) : No! It's the cop!
+{
+	[Properties] ID = LOUDSPEAKER1_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1320_russian1_speaker.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1330] // Max (V.O); Vlad and mona were on a crash course
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1330.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1340] // Max (V.O); Vlad was after vinnie, he'd left me a map
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1340.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1350_winterson] // Winterson: Vlad, where are you?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1350_winterson.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1350_max] // Max (V.O); Vlad was after vinnie, he'd left me a map
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_vodka\Second_Vodka_dlg_1350_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}

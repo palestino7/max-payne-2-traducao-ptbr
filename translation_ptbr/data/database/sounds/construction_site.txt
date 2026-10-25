@@ -1,0 +1,2030 @@
+#include "..\soundid.h"
+
+[dlg_1000_max] // MAX: A condemned building, at the edge of the site, headed upstairs.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1000_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1000_mona] // MONA: I'm at the wrong end...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1000_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010_cleaner1] // CLEANER 1: Yeah I understand why we're breaking our...
+{
+
+
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1010_cleaner1.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = 10;
+		FallOff = 50;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010_cleaner2] // CLEANER 2: I don't know, wouldn't worry...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1010_cleaner2.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = 10;
+		FallOff = 50;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1020] // MAX: Mona, these guys are packing, close to an overkill. Hard core professionals.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1020.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1030_cleaner1] // CLEANER 1: One look at the boss...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1030_cleaner1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1030_cleaner2] // CLEANER 2: Oh baby!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1030_cleaner2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1030_cleaner3] // CLEANER 3: Shake it, baby, shake it.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1030_cleaner3.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040] // MONA: Doesn't seem that way from where I'm standing...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1040.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1070] // MONA: Sometimes Mona, you gotta go down to get up.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1070.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1075] // MAX(V.O): The site was a maze with no short way through, mona must have gone...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1075.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080_max] // MAX: The building's blowing up
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1080_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080_mona] // MONA: Max! What's going on?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1080_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1100_mona] // MONA: Max! Max? What's happening?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1100_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1100_radio] // Static
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1100_radio.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1110_mona] // MONA: Max! Max! Come in! Can you hear me?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1110_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1110_radio] // static
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1110_radio.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120] // MAX: Mona, you have to take them out...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1120.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1130_max] // MAX: Okay, back in business. Any ideas?
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1130_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1130_mona] // MONA: Try to get inside, head my way.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1130_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1140] // MAX: No good. The door's locked.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1140.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1150] // MAX: I need to get across the courtyard to the next door.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1150.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1160_max] // MAX: It's not like I'm in a hurry
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1160_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1160_mona] // MONA: Max, can't get a good shot from here, I'll have to backtrack
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1160_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1162] // Max (V.O): Without Mona's help i'd be a dead man, suddenly..
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1162.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1167] // Max (V.O): I was in trouble, I could hope that Mona could find an opening..
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1167.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1170_max] // MAX: Mona, I don't mean to rush you.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1170_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1170_mona] // MONA: Looking for a window with a view...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1170_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1180_max] // MAX: Mona, I'm running out of time here, and they don't seem to...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1180_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1180_mona] // MONA: Still looking for that window
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1180_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_max] // MAX: Still no window, eh?
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1190_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_mona] // MONA: Never settle for second best
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1190_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200_max] // MAX: Mona?
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1200_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200_mona] // MONA: Max, hang on. I'll take them out as soon as I can...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1200_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1210_max] // MAX: I'm moving. Cover me!
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1210_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1210_mona] // MONA: Max, the route's clear.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1210_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1220] // MAX: More of them! Mona, cover me!
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1220.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1230_max] // MAX: This is going to sound like a rerun, but they've got me pinned down here.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1230_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1230_mona] // MONA: I'm on it
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1230_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1240] // Player shoots Max
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1240_A.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1240_B.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1240_C.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1240_D.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1250_max] // MAX: Tell them I said "hi"
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1250_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1250_mona] // MONA: Max, something's come up.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1250_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1260_max] // MAX: The boys down here will be...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1260_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1260_mona] // Max, I'm back on the track.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1260_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1265] // Max(V.O): I was running out of time, I kept my eyes on the scaffolding
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1265.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270_max] // MAX: Mona, it's not me, but the guys...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1270_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270_mona] // MONA: I'm worth the wait. I'll be on that scaffolding in a sec...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1270_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280_max] // MAX: Mona, now woul dbe an excellent time to make an entrance.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1280_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280_mona] // MONA: Just keep your eyes on the scaffolding...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1280_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290_max] // MAX: Mona, hate to say this, but you're missing the show.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1290_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290_mona] // MONA: The show starts the moment I'll step on that scaffolding
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1290_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1300] // MONA: Max I'm here
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1300.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1305] // MAX: something something. yadda.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1305.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1310_max] // MAX: No luck with the door. There's a gateway here that leads to another yard
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1310_max.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1310_mona] // MONA: Okay, I'll work my way through the building...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1310_mona.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1315] // Max: Mona, found something to keep on my feet through this..
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1315.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1320] // MONA: Max, I found a way. I'm coming...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1320.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1330] // MAX: The bad news is, the first door here is also locked...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1330.wav;
+		Volume = PLAYER_SHOUT_VOLUME;
+		Hotspot = PLAYER_SHOUT_HOTSPOT;
+		FallOff = PLAYER_SHOUT_FALLOFF;
+		Priority = PLAYER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1340] // MONA: Damn you max, I told you no cops.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1340.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1345] // Max (V.O): Mona must have heard the sirens too, she must not been too happy about it
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1345.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1350] // MAX: How's the view, Mona. Aim at the gas bottles.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1350.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1360_max] // MAX: Thanks. I'm going for the second door.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1360_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1360_mona] // MONA: I'll cover you.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1360_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1370_max] // MAX: Locked! Running out of doors here. One left across the yard.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1370_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1370_mona] // MONA: Okay, stay where you are. I'll let you know when...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1370_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1380] // MONA: They better not be coming here...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1380.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1385] // Max (V.O): If she couldn't make it to the other side of the yard..
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1385.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1390_max] // MAX: Mona, I don't think this bulldozer can....
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1390_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1390_mona] // MONA: You see yourself as a bulldozer?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1390_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1400_max] // MAX: You know, my dream is to be rescued...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1400_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1400_mona] // MONA: You better no tbe napping...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1400_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1410_max] // MAX: You know Mona, if I didn't know any better...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1410_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1410_mona] // MONA: What, a catch like you?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1410_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1420] // MONA: Okay. Action.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1420.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1430_max] // MAX: And he's off...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1430_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1430_mona] // MONA: Ready, steady, go
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1430_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1440_max] // MAX: Locked. One last chance: there's another gate out of the yard.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1440_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1440_mona] // MONA: Meet you on the other side.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1440_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1450_max] // MAX: Listen, Mona. The funhouse, you wanted to talk about what happened...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1450_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1450_mona] // MONA: Yeah...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1450_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1460] // MONA: The siren's gone. SOme other emergency...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1460.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1465] // Max (V.O): The siren's had faded away
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1465.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1480_max] // MAX: Mona? I'm at the edge of this pit...
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1480_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1480_mona] // MONA: I can see you, i'm on my way.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1480_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1485] // MONA: I'm at the bottom of the pit.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1485.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1486] // Max: Okay, commandos dont want us to leave
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1486.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1490] // COMMANDO 1: A word from the boss, change of plan...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1490.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1500] // MAX: Mona, the commando's have had it.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1500.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1510_max] // MAX: I'll be there.
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1510_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1510_mona] // MONA: Found a lift...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = construction_site\construction_site_dlg_1510_mona.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}

@@ -1,0 +1,926 @@
+#include "..\soundid.h"
+
+[dlg_1000_commando1] // commando1: Give up! You have nowhere to run!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_Hospital_dlg_1000_commando1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1000_max] // commando1: Give up! You have nowhere to run!
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_Hospital_dlg_1000_max_vo.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010_commando1] // commando1: Feller.. mitchum here (in radiospeak)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_Hospital_dlg_1010_commando1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010_radio] // commando1: Feller.. mitchum here (in radiospeak)
+{
+	[Properties] ID = RADIOSPEAK_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_Hospital_dlg_1010_radio.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = TRUE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1020] // commando 1: You are just postponing the inevitable
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1020.wav;
+		Volume = 0.5;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1030] // commando 1: Open up!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1030.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040_commando1] // commando 1: You are just making this harder for yourself
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1040_commando1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040_max] // MAX: There were no guns at the morgue. I had to get past him to fight him.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1040_max_vo.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050] // commando 1: AAH!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1050.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1060] // commando 1: You gonna get it now!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1060.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1070] // commando 1: I'm coming for you!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1070.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080] // commando 1: You can run, but you won't get far!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1080.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120_doctor1] // DOCTOR 1: I let him down.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1120_doctor1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120_doctor2] // DOCTOR 2: You did everything that could be done, Mary
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1120_doctor2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1130_doctor1] // Doctor 1: Mr Payne? You shouldn't be up!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1130_doctor1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1130_doctor2] // Doctor 2: Calm down. Everything's all right.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1130_doctor2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1140] // commando 2: Mitchum! He's here. Get him!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1140.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1145] // commando 2: Mitchum! He's here. Get him!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1145.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1150] // Doctor 1: AAAH!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1150.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1153] // Doctor 1: AAAH!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1153.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1155] // Doctor 1: AAAH!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1155.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1160_commando1] // commando 1: Where is he?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1160_commando1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1160_commando2] // commando 2: He isn't getting out.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1160_commando2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1170] // commando 1: Where are you hiding?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1170.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1180] // commando 1: Come out, come out. Where ever you are?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1180.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_commando2] // commando2: Mitchum? Anything?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1190_commando2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_commando1] // commando 1: I'll get him! I'll get you.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1190_commando1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200_guard1] // Guard 1: Security! Stay where you are!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1200_guard1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200_commando2] // commando 2: You drop it!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1200_commando2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1210] // Guard 1: No! Aaah!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1210.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1220] // commando 2: Got him, mitchum! just keep at it!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1220.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1230] // guard 2: Hospital security! Hold it!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1230.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1240] // Guard 3: Stop or i'll shoot!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1240.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1250] // Guard 4: Stop them! Drop your weapons!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1250.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1260] // MAX(V.o): The dead security guard had dropped his gun..
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1260.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1265] // MAX(V.o): The dead security guard had dropped his gun..
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1265.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270] // MAX (V.o): Bravura was too stubborn to die
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1270.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290_commando1] // Commando 1: I'm saying we should have waited
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1290_commando1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290_commando2] // Commando 2: Wrong. The deal was to wait half an hour.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_Hospital_dlg_1290_commando2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1310] // MAX (V.O.): The painkillers couldn't banish the pulse of the main anymore.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1310.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1315] // MAX (V.O.): The painkillers couldn't banish the pulse of the main anymore.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1315.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1320] // MAX (V.O): At the construction site I had been ready to give myself in
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = second_hospital\Second_hospital_dlg_1320.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}

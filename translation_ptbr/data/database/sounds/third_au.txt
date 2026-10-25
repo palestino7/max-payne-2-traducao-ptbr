@@ -1,0 +1,353 @@
+#include "..\soundid.h"
+
+[dlg_1000] // MAX(V.O): She came to get me through the fire
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1000.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1003] // MAX(V.O): witht he funhouse inflames..
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1003.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1005] // Mona: damnit my home
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1005.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1007] // MAX (V.O): Vlad had terminated Vinnie's tragic existence..
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1007.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010] // MONA: Ouch! Poor guy, poor bastard.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1010.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1030] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1030.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1040.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1050.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1060] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1060.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1070] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1070.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1080.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1090] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1090.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1100] // broken audio-tapes
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1100.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1110] // Mona: Max!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1110.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120] // MAX(V.O): She found me where vlad left me
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1120.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1130] // Mona: Max!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_address_unknown\third_address_unknown_dlg_1130.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}

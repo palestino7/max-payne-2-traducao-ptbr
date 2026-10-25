@@ -1,0 +1,1920 @@
+#include "..\soundid.h"
+
+[dlg_1040]	// MAX (V.O.): She had woken me up...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1040.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050_max]	// MAX : Max. I'm at home...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1050_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050_winterson]	// Winterson: Winterson...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1050_winterson.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1060]	// Max: Mona!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1060.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1070]	// Boozehound: No one's home go away
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1070.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080]	// Neighbour #1: I've called the police
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1080.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1090]	// Max (V.O.): Something was barring the door...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1090.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1100]	// Max (V.O.): They had jammed the elevator
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1100.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1110]	// Neightbor #1: Oh no, no you won't, Get out...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1110.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1120_neighbor1]	// Neightbor #1: No one's driving me out of my home.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1120_neighbor1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120_max]	// Max: Carefull with that gun, lady.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1120_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1130]	// Neighbor #1: Look out, or by God...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1130.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1140]	// Neighbor #1: I have the right to defend myself!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1140.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1150]	// Neighbor #1: You give me no choice!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1150.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1160]	// Neighbor #1: I didn't want to shoot...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1160.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1170]	// Neighbor #1: Hoodlums! This used to be a nice neighborhood
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1170.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1180]	// Neighbor #1: He was trespassing. You saw it.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1180.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1190]	// Neighbor #1: Used to be a time when you didn't have to lock your door
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1190.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1200]	// Neighbor #1: There might be more of them. If you want, I can give you a gun just like this one.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1200.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1210_max]	// Max: Ok, let's see that shotgun.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1210_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1210_neighbor1]	// Neighbot #1: Come in.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1210_neighbor1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1220_max]	// Max: Thank you
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1220_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1220_neighbor1]	// Neighbot #1: My Pleasure.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1220_neighbor1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1230]	// Max: Lock the door...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1230.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1240]	// Neighbor #1: Go away!...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1240.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = true;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1250]	// Max (V.O.) With the elevator jammed and the stairs blocked...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1250.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1260]	// Cleaner #1: Up there on the ledge!...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1260.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1270]	// L&L: My lady! Wait...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = misc\placeholder.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1280]	// Boozehound #1: No no, put it back on, they'll hear!...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1280.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1290]	// Boozehound #1: Spying, they're spying.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1290.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1300]	// Boozehound #1: No, You've found me!...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1300.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1310]	// Boozehound #1: Please don't take me, please...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1310.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1320_winterson]	// Winterson: Winterson
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1320_winterson.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1320_max]	// Max: Max here...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1320_max.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1330]	// Cleaner #2: Kaufman wants us this taken care of.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1330.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1340]	// Cleaner #1: Get what this is?...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1340.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1350]	// Cleaner #1: There he is! We've been waiting for this!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1350.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1360]	// Neighbor #2: Hello? I heard a noice. A noice wake me up.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1360.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1370_neighbor2]	// Neighbor #2: Such a nice man...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1370_neighbor2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1370_max]	// Max: Just passing through ma'am
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1370_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1380]	// Neighbor #2: With all these cleaners...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1380.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1390]	// Neighbor #2: The doctor gave me pills for...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1390.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1400]	// Neighbor #2: I've heard them talk in the corridor. Peeping Toms!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1400.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1410]	// Neighbor #2: I remember sunlit days...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1410.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1420]	// Neighbor #2: It stung me! lousy bee!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1420.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1430]	// Neighbor #2: It hurts...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1430.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1440]	// Max (V.O.): I had found the sniper's hideout...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1440.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1445]	// Max (V.O.): The building trembled...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1445.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1450]	// Max (V.O.): Home is where your heart is
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1450.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1460]	// Cleaner #1: Simple, not like in a movie...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1460.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1470]	// Max (V.O.): Once upon a time it had been...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1470.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1480]	// Cleaner #1: He opens the door and pum
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1480.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1490]	// Max (V.O.): Now, nothing was left of it
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1490.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1500]	// Cleaner #3: Ready?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1500.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1510]	// Cleaner #3: Shit!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1510.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1520]	// Max (V.O): I wasn't happy about the way the cleaners were doing their job.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1520.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1530]	// Max (R.V): Leave a message.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1530.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1540]	// Winterson (R.V): Winterson...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1540.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1550_cleaner1]	// Cleaner #1: It's not the same thing...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1550_cleaner1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1550_cleaner2]	// Cleaner #2: The same thing. It's the same thing.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1550_cleaner2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1560]	// Neighbour #1: Oh my god...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1560.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1570]	// Max (V.O.): I wasn't going to get through without the code...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1570.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1580]	// Boozehound #2: They're crazy! Help! They wanna clean me out!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1580.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1590]	// Boozehound #2: Thanks, man. You saved me.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1590.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1600]	// Boozehound #2: They have barred the door...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1600.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1610]	// Max: Right. Any other way out?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1610.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1620]	// Boozehound #2: Up the roof maybe...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1620.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1630]	// Boozehound #2: Poor Ed, these crazy cleaners...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1630.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1640]	// Boozehound #2: Told them I was clean...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1640.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1650]	// Boozehound #2: You can always tell the difference...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1650.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1660]	// Boozehound #2: Those birds don't know when to stop...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1660.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1670]	// Boozehound #2: Beauty is terror. I saw her from the window...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1670.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1680]	// Boozehound #2: You crazy? You...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1680.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1690]	// Boozehound #2: Damn you, pigeons, cleaners.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1690.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1700]	// Max (V.O): This wasn't the way out...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1700.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1710]	// Janitor #1: Dum du dum...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1710.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1720_janitor1]	// Janitor #1: okay
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1720_janitor1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1720_max]	// Max: You stay here
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1720_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1730]	// Janitor #1: Dum du du dum...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1730.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1740]	// Janitor #1: Dum du du dum...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1740.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1750]	// Janitor #1: Dum du du dum...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1750.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1760]	// Janitor #1: Hey! What the hell, hey...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1760.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1770]	// Janitor #1: Hey! No! Don't kill me.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1770.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1780]	// Dog barking
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1780.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1790]	// Address Unknown
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = misc\placeholder.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1800]	// Max (V.O.): The explosion in my flat...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = maxs_apartment_a\maxs_apartment_dlg_1800.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}

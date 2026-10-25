@@ -1,0 +1,736 @@
+#include "..\soundid.h"
+
+//Event-triggered sounds:
+#define HOTSPOT_SMALL		5
+#define FALLOFF_SMALL		50
+#define HOTSPOT_LARGE		20
+#define FALLOFF_LARGE		150
+
+
+[dream_steam]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\steam_dream_whoosh_A.wav;
+		Volume = 0.7;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = 25;
+
+		[Sound]
+		Filename = first_dream\steam_dream_whoosh_B.wav;
+		Volume = 0.7;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = 25;
+
+		[Sound]
+		Filename = first_dream\steam_dream_whoosh_C.wav;
+		Volume = 0.7;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = 25;
+	}
+}
+
+[max_snaps_awake]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\max_snaps_awake.wav;
+		Volume = 0.7;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+	}
+}
+
+[door_knocking_3s]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\door_knocking_3s.wav;
+		Volume = 0.7;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+	}
+}
+
+[door_wood_creaking]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\door_wood_creaking.wav;
+		Volume = 0.4;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = TRUE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+	}
+}
+
+[phone_ringing_old_fash_loop]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\phone_ringing_old_fashioned_loop.wav;
+		Volume = 0.5;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = TRUE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+	}
+}
+
+[sliding_on_wood]
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\sliding_on_wood.wav;
+		Volume = 0.4;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = TRUE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+	}
+}
+
+
+//========SPEECH BEGINS HERE
+
+[dlg_1000] //MAX: That's odd
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1000.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+	}
+}
+
+[dlg_1010] //MAX (V.O.): I had misplaced by beretta...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1010.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = NO;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1020] // John (O.S): I was hiding...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = misc\placeholder.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = 50;
+	}
+}
+
+[dlg_1030] //Mona: Max (whisper)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1030_2dsound.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = NO;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040] //Mona: Max (whisper)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1040_2dsound.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = NO;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050] //Mona: Max, sorry I woke you
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1050.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1055] //Mona: Max (multiple variations with different emotions)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1053.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1054.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1055.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1056.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1057.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1058.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+
+[dlg_1060] //Mona: Shhh, it's a secret...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1060.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1065] //Mona: You better answer that
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1065.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1070] //Phone (vlad): Nothing to worry about...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1070.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1080] //Winterson: We need to hit...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1080.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1090] //Bravura: Run, Payne, Run...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1090.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1100] //Bravura: Don't push your luck
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1100.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1110] //Winterson: We're just getting started
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1110.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1120] //Mona: Max (whisper)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1120.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1130] //Bravura: Payne, sit down
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1130.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1140] //Winterson: Don't get any stupid ideas
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1140.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1150] //Bravura: Put it down!
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1150.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1155] //Bravura: AAARGGH
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1155.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+
+[dlg_1160] //Winterson: Drop your weapon
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1160.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1165] //Winterson: AAARGG
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1165.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+
+[dlg_1170] //Mona: My hero
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = first_dream\first_dream_dlg_1170.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}

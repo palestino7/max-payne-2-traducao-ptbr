@@ -2,51 +2,51 @@
 // BEGIN 08 FIRST ADDRESS UNKNOWN
 // ---------------------------------------------------------
 
-[First_AU_1000_01]		String = "O esconderijo da Mona ficava em um parque de divers�es desativado, inspirado em uma s�rie de TV dos anos 90.";
+[First_AU_1000_01]		String = "O esconderijo da Mona ficava em um parque de diversÃµes desativado, inspirado em uma sÃ©rie de TV dos anos 90.";
 [First_AU_1000_02]		String = "O cancelamento do programa tinha sido o beijo da morte para aquele lugar.";
 
 [First_AU_1010_01]		String = "Parecia que eu estava caminhando direto para uma armadilha.";
 [First_AU_1010_02]		String = "Eu me sentia culpado, como se estivesse prestes a ser flagrado.";
 
 [First_AU_1030_01]		String = "John?";
-[First_AU_1030_02]		String = "Voc� precisa correr. Ele est� vindo atr�s de voc�, ele quer te pegar.";
-[First_AU_1030_03]		String = "Eles est�o se aproximando. John, eu te amo. N�o desista...";
+[First_AU_1030_02]		String = "VocÃª precisa correr. Ele estÃ¡ vindo atrÃ¡s de vocÃª, ele quer te pegar.";
+[First_AU_1030_03]		String = "Eles estÃ£o se aproximando. John, eu te amo. NÃ£o desista...";
 
-[First_AU_1040_01]		String = "Parem ele! L� vai ele! Parem ele!";
-[First_AU_1040_02]		String = "Voc� n�o tem como escapar! Estamos vindo te buscar! N�o h� para onde fugir!";
+[First_AU_1040_01]		String = "Parem ele! LÃ¡ vai ele! Parem ele!";
+[First_AU_1040_02]		String = "VocÃª nÃ£o tem como escapar! Estamos vindo te buscar! NÃ£o hÃ¡ para onde fugir!";
 
-[First_AU_1045_01]		String = "N�o havia tranca na porta da frente.";
-[First_AU_1045_02]		String = "Eu me perguntei por que o lugar n�o estava cheio de mendigos e c�es vadios.";
-[First_AU_1045_03]		String = "N�o era de se estranhar.";
+[First_AU_1045_01]		String = "NÃ£o havia tranca na porta da frente.";
+[First_AU_1045_02]		String = "Eu me perguntei por que o lugar nÃ£o estava cheio de mendigos e cÃ£es vadios.";
+[First_AU_1045_03]		String = "NÃ£o era de se estranhar.";
 
-[First_AU_1050_01]		String = "Quando o entretenimento vira um reflexo surreal da sua pr�pria vida,";
-[First_AU_1050_02]		String = "voc� � um sujeito de sorte se conseguir rir da piada.";
-[First_AU_1050_03]		String = "A sorte e eu n�o t�nhamos uma rela��o muito amig�vel.";
-[First_AU_1050_04]		String = "Ou talvez o lugar fosse simplesmente tosco demais para ter gra�a.";
+[First_AU_1050_01]		String = "Quando o entretenimento vira um reflexo surreal da sua prÃ³pria vida,";
+[First_AU_1050_02]		String = "vocÃª Ã© um sujeito de sorte se conseguir rir da piada.";
+[First_AU_1050_03]		String = "A sorte e eu nÃ£o tÃ­nhamos uma relaÃ§Ã£o muito amigÃ¡vel.";
+[First_AU_1050_04]		String = "Ou talvez o lugar fosse simplesmente tosco demais para ter graÃ§a.";
 
 // [1060-1080] - no subtitles, as these funhouse loudspeaker voices tend to overlap]
 
-[First_AU_1090_01]		String = "Um labirinto do terror � uma sequ�ncia linear de sustos programados.";
-[First_AU_1090_02]		String = "Pegar ou largar � a �nica escolha que te d�o.";
+[First_AU_1090_01]		String = "Um labirinto do terror Ã© uma sequÃªncia linear de sustos programados.";
+[First_AU_1090_02]		String = "Pegar ou largar Ã© a Ãºnica escolha que te dÃ£o.";
 
-[First_AU_1100_01]		String = "Isso te faz pensar sobre o livre-arb�trio:";
-[First_AU_1100_02]		String = "ser� que as nossas escolhas j� foram feitas por n�s, simplesmente pelo que somos?";
+[First_AU_1100_01]		String = "Isso te faz pensar sobre o livre-arbÃ­trio:";
+[First_AU_1100_02]		String = "serÃ¡ que as nossas escolhas jÃ¡ foram feitas por nÃ³s, simplesmente pelo que somos?";
 
-[First_AU_1102_01]		String = ".espelhoS s�O maiS divertidoS dO quE televis�O";
+[First_AU_1102_01]		String = ".espelhoS sÃ£O maiS divertidoS dO quE televisÃ£O";
 
-[First_AU_1104_01]		String = ".elA pintoU O cabelO D e vermelhO";
+[First_AU_1104_01]		String = ".elA pintoU O cabelO dE vermelhO";
 
-[First_AU_1190_01]		String = "O seu passado tem um jeito pr�prio de se aproximar de mansinho.";
-[First_AU_1190_02]		String = "Voc� ouve ecos distorcidos dele por toda parte, como uma reprise ruim.";
-[First_AU_1190_03]		String = "Voc� fica furioso com todo mundo por te lembrarem daquilo,";
-[First_AU_1190_04]		String = "mesmo que esteja tudo apenas na sua cabe�a.";
+[First_AU_1190_01]		String = "O seu passado tem um jeito prÃ³prio de se aproximar de mansinho.";
+[First_AU_1190_02]		String = "VocÃª ouve ecos distorcidos dele por toda parte, como uma reprise ruim.";
+[First_AU_1190_03]		String = "VocÃª fica furioso com todo mundo por te lembrarem daquilo,";
+[First_AU_1190_04]		String = "mesmo que esteja tudo apenas na sua cabeÃ§a.";
 
-[First_AU_1210_01]		String = "Eu estava atr�s dos cen�rios. Esquentando.";
+[First_AU_1210_01]		String = "Eu estava atrÃ¡s dos cenÃ¡rios. Esquentando.";
 
-[First_AU_1220_01]		String = "Quando conheci a Mona pela primeira vez, a irm� g�mea dela tinha sido assassinada.";
-[First_AU_1220_02]		String = "Deve ter parecido uma loucura, uma esquizofrenia ao contr�rio,";
-[First_AU_1220_03]		String = "o seu outro eu de repente caindo no sil�ncio absoluto.";
-[First_AU_1220_04]		String = "N�s dois t�nhamos perdido as pessoas que am�vamos.";
+[First_AU_1220_01]		String = "Quando conheci a Mona pela primeira vez, a irmÃ£ gÃªmea dela tinha sido assassinada.";
+[First_AU_1220_02]		String = "Deve ter parecido uma loucura, uma esquizofrenia ao contrÃ¡rio,";
+[First_AU_1220_03]		String = "o seu outro eu de repente caindo no silÃªncio absoluto.";
+[First_AU_1220_04]		String = "NÃ³s dois tÃ­nhamos perdido as pessoas que amÃ¡vamos.";
 
 [First_AU_1230_01]		String = "A porta da Mona estava trancada.";
 [First_AU_1230_02]		String = "Eu poderia ter batido, mas senti um impulso de bisbilhotar mais um pouco,";
@@ -54,5 +54,5 @@
 [First_AU_1230_04]		String = "Fingi para mim mesmo que eu tinha alguma escolha naquilo.";
 
 [First_AU_1250_01]		String = "As armas e os explosivos na oficina dela";
-[First_AU_1250_02]		String = "n�o deixavam d�vidas sobre a sua profiss�o.";
+[First_AU_1250_02]		String = "nÃ£o deixavam dÃºvidas sobre a sua profissÃ£o.";
 

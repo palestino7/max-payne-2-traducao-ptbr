@@ -1,0 +1,625 @@
+#include "..\soundid.h"
+
+//Event-triggered sounds:
+#define HOTSPOT_SMALL		5
+#define FALLOFF_SMALL		50
+#define HOTSPOT_LARGE		20
+#define FALLOFF_LARGE		150
+
+
+
+//SPEECH
+
+[dlg_1000] //MAX (V.O) In the dream...
+{
+	[Properties]  ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1000.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = NO;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Priority = PLAYER_TALK_PRIORITY;
+	}
+}
+
+[dlg_1010] //OFFICER #1: Detective Payne...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1010.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		}
+}
+
+[dlg_1020] // BRAVURA: A crime of passion...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1020.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1030] // MAX: A bullet in the head...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1030.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1040] //Bravura: The killer is looking...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1040.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1050] //BRAVURA (strained) The suspect is waiting
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1050.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1060_doctor1] //DOCTOR #1: His heart broke
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1060_doctor1.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1060_doctor2] //DOCTOR #2: Give him hope...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1060_doctor2.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1080] //Max: NYPD! Drop the gun
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1080.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1090] //MAX SUSPECT #1: What are you going...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1090.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1100] //JANITOR #1: Dum de dum dum...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1100.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1110] //MAX SUSPECT #1: I've been framed
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1110.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+
+[dlg_1120] //JANITOR #1: Oh, he did it all right
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1120.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1130] //JANITOR #1: (sings) We keep driving into the...
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1130.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1160] //TV SHOW: Vlad Tortures Vinnie
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = misc\placeholder.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = 50;
+	}
+}
+
+[dlg_1170] //MAX SUSPECT #1 (O.S) You think you can get me?
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1170.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1180] //MAX SUSPECT #1 (O.S) I'll make you pay
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1180.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1190] //MAX COP #1: NYPD Freeze!
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1190.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+
+[dlg_1200] //MAX COP #1: You're going down
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1200.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1210] //MAX SUSPECT #1 (O.S) You're going to pay...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1210.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1220] //TV SHOW: MONA VS. VLAD
+
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = misc\placeholder.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = 50;
+	}
+}
+
+[dlg_1230] //MAX SUSPECT #2 You think you can hurt them...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1230.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1240] //MAX COP #2 Hold it, NYPD, Don't move!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1240.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1250] //MAX COP #2 Murdered! Cop-killer!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1250.wav;
+		Volume = 0.3;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+	}
+}
+
+[dlg_1260] //MONA (OS) Come on, time to wake up
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\third_dream_dlg_1260_2dsound.wav;
+		Volume = 0.6;
+		Random = 0%;
+		3DSound = NO;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+// Camera sounds
+
+[Camera_shot]  			
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = third_dream\camera_shot_a.wav;
+		Volume = 1.0;
+		Random = 10%;
+
+        3DSound = YES;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 1;
+		FrequencyScaling = TRUE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+
+		[Sound]
+		Filename = third_dream\camera_shot_b.wav;
+		Volume = 1.0;
+		Random = 10%;
+
+        3DSound = YES;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 1;
+		FrequencyScaling = TRUE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+
+		[Sound]
+		Filename = third_dream\camera_shot_c.wav;
+		Volume = 1.0;
+		Random = 10%;
+
+        3DSound = YES;
+		Hotspot = HOTSPOT_SMALL;
+		FallOff = FALLOFF_SMALL;
+
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 1;
+		FrequencyScaling = TRUE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = FALSE;
+	}
+}

@@ -1,0 +1,2673 @@
+#include "..\soundid.h"
+
+[dlg_1000]	// MAX (V.O.): I was mad.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1000.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010]	// OFFICER #1: Don't envy you
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1010.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1020]	// OFFICER #1 (CONT'D): On his good behavior again.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1020.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1030]	// OFFICER #1 (CONT'D): Payne, the ball-breaker the boss is
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1030.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040]	// OFFICER #1 (CONT'D): (lowers his voice) You ask me
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1040.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050]	// BRAVURA (O.S.): Go away, I'm busy!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1050.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1060]	// BRAVURA (O.S.): Does it look like I'm open for business?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1060.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1070]	// BRAVURA (O.S.): I'm busy making a list of people whose butts I'm going to fire.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1070.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080_officer2]	// OFFICER #2: (bored and sceptical) Right. We found you,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1080_officer2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080_mobster1]	// MOBSTER #1: Hell no! I'm a fall guy,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1080_mobster1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1090]	// OFFICER #2: Sorry Payne, can't help you now,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1090.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1100]	// OFFICER #2: Hey, how do you spell psycho?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1100.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1110]	// Mobster #1: Hey, I'm not saying another goddamned
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1110.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120]	// MAX (V.O.): I was putting off the inevitable...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1120.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1160]	// Max (CONT'D): Yeah?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1160.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1170]	// Max (CONT'D): Fine.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1170.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1180]	// OFFICER #1: Better get Winterson,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1180.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190]	// OFFICER #1: I hear she has a new boyfriend.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1190.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200]	// OFFICER #1: They say she kicked her husband out a couple of years ago,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1200.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1202]	// OFFICER #1: Anyways, she is talking to an eyewitness...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1202.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1205]	// OFFICER #10: How is anyone supposed to find anything...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1205.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1207]	// Max (V.O) The lineup wasn't on yet.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1207.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1208]	// Winterson: Number one, thank you, you may step back.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1208.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1210]	// WINTERSON: They can't see you through the glass.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1210.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1220]	// Witness: Yeah, okay.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1220.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1230]	// Max: I needed to follow Mona's status
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1230.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1240]	// WINTERSON: Number two. Step forward and speak the line you were given.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1240.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270]	// HOOKER #2: (laughs) I can't read.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1270.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280]	// WINTERSON: Just say the line number one said.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1280.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290]	// HOOKER #2: You think I was listening?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1290.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1300]	// WINTERSON: You're nothing but a one-armed bandit.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1300.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1310]	// HOOKER #2: (laughs) Stupid. You're nothing but an one-armed bandit.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1310.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1320]	// WINTERSON: Thank you. Step back number two.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1320.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1330]	// MONA: You are nothing but an one-armed bandit.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1330.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1340_witness]	// WITNESS: Aren't I supposed to identify any of the men in jumpsuits?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1340_witness.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1340_winterson]	// WINTERSON: (edgy) That's none of your concern.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1340_winterson.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1350]	// WINTERSON: Okay, we're done, take them away.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1350.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1360]	// Female officer #4: Okay ladies, you heard her, this way.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1360.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1370]	// WINTERSON: You can wait here, someone will come...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1370.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1380]	// MAX: I wanted to talk to winterson's witness...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1380.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1400]	// WINTERSON: I tried to help you Max, but you didn't listen. Now it's too late.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1400.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1410]	// MAX: This is important.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1410.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1420]	// WINTERSON: It's too late, Payne.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1420.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1425]	// WINTERSON: I was on your side, Max...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1425.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1430]	// MAX: Detective Payne. Anything you'd like to add?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1430.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1440]	// WITNESS: That's what I was trying to tell the other detective,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1440.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1460]	// WITNESS: It's hard to say who was out to kill who,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1460.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1470]	// MAX: Okay. Thanks.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1470.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1480]	// WITNESS: No, thank you.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1480.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1485]	// WITNESS: Never been to a police station before. Exciting stuff.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1485.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+
+[dlg_1540]	// MAX (V.O.): I needed to talk to Mona again.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1540.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1545]	// MAX (V.O.):The cells were downstairs
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1545.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1550]	// Max: The line-up was done. Mona was back in her cell.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1550.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1590_hooker1]	// Hooker #3: I wanna report a crime.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1590_hooker1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 8;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1590_female_officer1]	// FEMALE OFFICER #1: You've come to the right place.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1590_femaleofficer1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 8;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1600]	// FEMALE OFFICER #1: Did you hear that? Guns don't kill...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1600.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1620]	// FEMALE OFFICER #1: How come its so hot in here...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1620.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1630]	// Hooker: I wouldn't be afraid to go home if you're there to protect me.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1630.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1660]	// MAX (V.O.): I thought about walking away, vanishing without a trace into the night of the city. I couldn't do it.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1660.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1665]	// Officer #9: For crying out loud! Is it too much to ask for some privacy...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1665.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1670_officer1]	// Officer #1: Good coffee, I saw this someplace,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1670_officer1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1670_officer2]	// OFFICER #2: You know what pisses me off?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1670_officer2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1690]	// OFFICER #3: Sorry Payne, you missed it, just poured myself the last cup.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1690.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1700]	// OFFICER #4: You can always make more, Payne.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1700.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1710]	// OFFICER #3: This is really good coffee, anyone know who made it?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1710.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1720]	// OFFICER #4: Payne, did you make this? This is really good.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1720.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1730]	// OFFICER #3: Should get back to work, the perps keep no coffee breaks.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1730.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1740]	// OFFICER #4: Nah, better stay here, guard the coffee maker, someone might steal it.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1740.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1750]	// OFFICER #3: Hey! We're watching that.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1750.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1760]	// OFFICER #4: Get out of the way, Payne.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1760.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1770]	// OFFICER #3: Hey! We were watching that.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1770.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1780]	// OFFICER #4: Asshole.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1780.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1781]	// OFFICER #3: Nice going Payne
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1781.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1782]	// OFFICER #4: You better hope we won't get an indian summer payne.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1782.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 10;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1783_dispatcher]	// FEMALE OFFICER #3: Ten four...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1783_dispatcher.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 8;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1783_radio]	// RADIO: garbled static...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1783_radio.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 1;
+		FallOff = 8;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1785]	// FEMALE OFFICER #3: Sorry, detective, can't help you now...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1785.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1788_officer1]	// OFFICER #1: How do you expect anyone to remember your name...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1788_officer1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1788_officer2]	// OFFICER #2: None of that matters. When I crack this case, Miller...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1788_officer2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1790]	// OFFICER #1: Hey, Payne. "Max Payne" now that's a catchy name for you.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1790.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1792]	// OFFICER #2: "Positioning." Like that's what the job's about.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1792.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1800]	// FEMALE OFFICER #2: Want to get to the lockup...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1800.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1810]	// FEMALE OFFICER #2: There's nothing as boring as sitting behind this desk.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1810.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1820]	// OFFICER #5 (O.S.): (through an intercom) Yeah?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1820.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1823]	// Max: Payne here, I need a statement from Mona Sax.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1823.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1825]	// OFFICER #5: Sorry, Payne. She's upstairs in a line-up.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1825.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1830]	// MAX: Payne here, I need a statement from one of your customers.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1830.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1840]	// MAX: Mona Sax?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1840.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1850]	// OFFICER #5: The last pokey down the corridor to your left.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1850.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1860]	// Officer #5: Mona Sax, huh? Lucky bastard,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1860.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1870]	// Officer #5: Yeah, she's a looker. She killed someone?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1870.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1880]	// Officer #5: Your femme fatale's down the corridor to your left.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1880.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1890_mobster1]	// Mobster #1: How fucked up is that?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1890_mobster1.wav;
+		Volume = 0.5;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1890_mobster2]	// Mobster #2: That's pretty fucked up.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1890_mobster2.wav;
+		Volume = 0.5;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1900]	// OFFICER #6: Not again. Jesus, not again! Just when we got rid of the stench of the last time.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1900.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1905]	// OFFICER #1: You are doing fine, just breath through your nose.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1905.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1910]	// BOOZEHOUND #1: (drunk) Sorry, sorry, can't help it,
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1910.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1920_officer2]	// OFFICER #2: I've been cleaning up after this skel all night.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1920_officer2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1920_boozehound1]	// BOOZEHOUND #1: Looks bad.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1920_boozehound1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1930]	// OFFICER #6: To serve and protect New York City from barf...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1930.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1960]	// MAX (V.O.): I didn't want to have anything to do with Woden.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1960.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1970]	// MAX (V.O.): The door to the station's garage was locked except for when perps were brought into custody.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1970.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1980]	// BOOZEHOUND #1: As the lady says, we're all gonna die, puke ain't pretty, but it never lies.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_1980.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2000]	// OFFICER #6: I mean, sure, I'd be okay if we had fucking Hannibal Lecter
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2000.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2005]	// OFFICER #1: The air-conditioning is busted again...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2005.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2010]	// MAX: Can I use your phone?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2010.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = 0;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2020]	// OFFICER #5: There's one through the door behind you, you can use that.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2020.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_2023]	// OFFICER #7: Play some hoops later on?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2023.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2025]	// OFFICER #8: Your funeral.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2025.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2027]	// OFFICER #7: Whats up Payne?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2027.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2028]	// OFFICER #8: Nothing to see here, move along. nothing to see.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2028.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2030]	// Max: I need to make a call.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2030.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2040]	// FEMALE OFFICER #2: You can use this phone.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2040.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2050]	// WODEN (O.S.): (through the phone) You've reached the voice mail of Senator Alfred Woden.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2050.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2060]	// MAX: Woden? Max Payne. We need to have a talk. You ask me, you still owe me.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2060.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_2180]	// Max (V.O) I needed a gun to get past the cleaners.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2180.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2190]	// Cleaner #2: screams in pain
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2190.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2200]	// BOOZEHOUND #1: (mumbles in terror) I saw it, I saw it, they're all dead.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2200.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT_SMALL;
+		FallOff = CHARACTER_TALK_FALLOFF_SMALL;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2210]	// Cleaner #3 Finish him!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2210.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2220]	// OFFICER #5: Help. Somebody. Officer down.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2220.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_2230]	// Max: Petersburg.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = police_station\Police_Station_dlg_2230.wav;
+		Volume = PLAYER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = PLAYER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+

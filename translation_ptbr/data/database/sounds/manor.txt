@@ -1,0 +1,1343 @@
+#include "..\soundid.h"
+
+[dlg_1000] // MONA: Max! I'm going in.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1000.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1010] // MAX: Damn!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1010.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1013] // COMMANDO 1: They’re coming! They’re coming!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1013.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1015] // COMMANDO 1: Let me in! Wait! Not yet! Let me in!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1015.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1017] // COMMANDO 2: He's coming!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1017.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1018] // COMMANDO 2: Blow it up! Blow it up now!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1018.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040] // MONA: Max! Hold on!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1040.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050] // MONA: More of them up here!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1050.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1070] // MONA: Max! I'm here!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1070.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080_max] // MAX: We work our way deeper into the building
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1080_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1080_mona] // MONA: What now?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1080_mona.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1090] // MONA: I'm on it Max
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1090.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1100_max] // MAX: Keep going, let's check the other wing.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1100_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1100_mona] // MONA: Right
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1100_mona.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1110] // MAX V.O. : I ended up on the same floor with Mona.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1110.wav;
+		Volume = VOICEOVER_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = VOICEOVER_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120_bodyguard] // BODYGUARD : Yes Sire. Woden and the gold are in the panic room.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1120_bodyguard.wav;
+		Volume = 0.5;
+		Hotspot = 2;
+		FallOff = 3;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120_commando] // COMMANDO : The explosives are in place sir.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1120_commando.wav;
+		Volume = 0.5;
+		Hotspot = 2;
+		FallOff = 3;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1120_vlad] // VLAD: Clay, dearest of all my friends.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1120_vlad.wav;
+		Volume = 0.5;
+		Hotspot = 2;
+		FallOff = 3;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1130] // MAX V.O. : Woden's bodyguards had betrayed him and joined Vlad.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1130.wav;
+		Volume = VOICEOVER_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = VOICEOVER_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1140] // MAX V.O. : There was still time. They hadn't gotten to him yet.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1140.wav;
+		Volume = VOICEOVER_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = VOICEOVER_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1150] // MAX V.O. : The panic room was at the back of the Manor.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1150.wav;
+		Volume = VOICEOVER_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = VOICEOVER_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1160] // Bodyguard 2 : It's Sax and Payne. They're already inside.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1160.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Priority = CHARACTER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1170] // Max: Mona was still on the case.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1170.wav;
+		Volume = VOICEOVER_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = VOICEOVER_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_max] // MAX: Woden's in his panic room
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1190_max.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190_mona] // MONA: Max!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1190_mona.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200] // MAX: We're headed in the right direction.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1200.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1210] // MONA: Let's go.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1210.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1220] // MAX: It's up ahead, see you there!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1220.wav;
+		Volume = PLAYER_TALK_VOLUME_3D;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = PLAYER_TALK_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1230] // MONA: Max! Down here! We can get through from here.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1230.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1240] // VLAD: He's behind me!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1240.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1250] // VLAD: You should be glad, Max, I did you a favor
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1250.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1255] // COMMANDO: To the panic room!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1255.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+		
+[dlg_1260] // VLAD: How do you like the fireworks?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1260.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270] // VLAD: We can still kiss and make up, Max.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1270.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280] // VLAD: Kidding, of course.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1280.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1285] // VLAD: What the fuck is wrong with you Max)?!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1285.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1290] // VLAD: You have wrecked my restaurant twice now.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1290.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1300] // ANSWERING MACHINE - 3 messages
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1300.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1305] // ANSWERING MACHINE - 2 messages
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1305.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1340] // VLAD: Have no fear, Vlad is here.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1340.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1350] // VLAD: Don't worry Max, I haven't forgotten you
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1350.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1360] // VLAD: Everything alright down there?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1360.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1370] // VLAD: Did you know that the old man used to come up here all the time
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1370.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1380] // VLAD: Pay attention Max!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1380.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1390] // VLAD: You know you are very lousy at your work Max!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1390.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1400] // VLAD: You couldn't find a clue if it...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1400.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1410] // VLAD: What happened to conducting an investigation...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1410.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1420] // VLAD: I could do a better job blindfolded
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1420.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1430] // MAX (V.O): I couldn't get to Vlad...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1430.wav;
+		Volume = VOICEOVER_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = VOICEOVER_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1440] // VLAD: Is this the way you want to play it Max?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1440.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1450] // VLAD: Somebody's getting cranky
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1450.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1460] // VLAD: Have a chill-out burger
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1460.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1470] // VLAD: Just checking
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1470.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1480] // VLAD: You think you got me there Max, didn't you?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1480.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1490] // VLAD screams
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1490.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1500] // VLAD: Ha ha ha ha!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1500.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1540] // MAX (V.O): Vlad was still beyond my reach, but the spike of the dome...
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1540.wav;
+		Volume = VOICEOVER_VOLUME;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Priority = VOICEOVER_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1550] // VLAD: AAAH!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1550.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1560] // VLAD: Ha ha ha ha... That was...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1560.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1570] // VLAD: Max... Dearest of all my friends...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1570.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1580] // VLAD: I was supposed to be the hero...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = manor\manor_dlg_1580.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		Random = 0%;
+		3DSound = YES;
+		Streamed = YES;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}

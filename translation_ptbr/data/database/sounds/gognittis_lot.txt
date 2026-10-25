@@ -1,0 +1,1129 @@
+#include "..\soundid.h"
+
+[dlg_0910] // VINNIE GENERIC: Vinnie being scared while covering
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0910_a.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0910_b.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0910_c.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0910_d.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0910_e.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_0920] // VINNIE GENERIC: Vinnie feels safe to move on from cover
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0920_a.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0920_b.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0920_c.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0920_d.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0920_e.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_0930] // VINNIE GENERIC: Vinnie being shot at by Max
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0930_a.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0930_b.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0930_c.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0930_d.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0930_e.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		}
+}
+
+[dlg_0940] // VINNIE GENERIC: Vinnie dies (the bomb goes off)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_0940.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1000] // VINNIE: Payne! What are you waiting for! Don't let them kill me!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1000.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1010] // VINNIE: Ow, man! Payne! There's more of them!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1010.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1030] // VINNIE: Payne! You can't leave me! I can't get through the door. Come back!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1030.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1040] // VINNIE: All right, Payne! You want to play it like this!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1040.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1050] // VINNIE: Payne! I'm sorry! Come back! I'm sorry!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1050.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1060] // MAX (V.O.): Vinnie was about to piss his pants.
+{
+	[Properties] ID = VOICEOVER_ID;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1060.wav;
+		Volume = VOICEOVER_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = PLAYER_TALK_HOTSPOT;
+		FallOff = PLAYER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = VOICEOVER_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = FALSE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+		}
+}
+
+[dlg_1085] // VINNIE: Aah! More of them! Payne, hold them off! Kill them!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1085.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1110] // VINNIE: This way Payne, we can get out through here, through the backdoor
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1110.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1120] // VINNIE: Hold your horses, Payne!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1120.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+
+[dlg_1130] //  VINNIE: Oh shit! Ow shit! I can't fit through. I can't fit through. To the elevator!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1130.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1140] // VINNIE: Get them, Payne! You gotta protect me!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1140.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1170] // VINNIE: Hurry up, Payne! You're getting me killed here!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1170.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1180] // VINNIE: Come on, I can't wait for you Payne! I gotta get out of here!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1180.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1190] // VINNIE: I'm going to have a fucking heart attack.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1190.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1200] // VINNIE: Too late, Payne! I'm going! Use the stairs!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1200.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1210] // VINNIE: Stop them! A single bullet could set off the bomb!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1210.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1220] // VINNIE: What? Whaat? I'm a collector! Do you know how much this stuff is worth?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1220.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1222] // VINNIE: Lots of tough guys are into this stuff.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1222.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1224] // VINNIE: Just wait till I sell my collection...
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1224.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1226] // VINNIE: Nerd! Let's see who's the nerd when I'm a millionaire
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1226.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1230] // VINNIE: No no no! Payne! What are you doing? Those are priceless collector's items!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1230.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1235] // VINNIE: We gotta get out of here somehow
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1235.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1250] // ANSWERING MACHINE: (3 messages)
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1250.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1255] // VINNIE: Payne, we gotta get out through the balcony somehow.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1255.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1260_commando1] // COMMANDO #1: Careful!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1260_commando1.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT;
+		FallOff = CHARACTER_SHOUT_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1260_Commando2] // COMMANDO #2: Shoot to immobilize. We'll take them alive.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1260_commando2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1270] // VINNIE: Oh shit. Ow man! They're coming. They're at the balcony.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1270.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280_Commando1] // COMaMANDO #1: Yummy
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1280_commando1.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1280_Commando2] // COMMANDO #2: Ever played "Bullet time"? No?
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1280_commando2.wav;
+		Volume = CHARACTER_TALK_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_TALK_HOTSPOT;
+		FallOff = CHARACTER_TALK_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1310] // VINNIE: Okay! Losers thought they could flank us.
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1310.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1320] // VINNIE: Let's go let's go let's go!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1320.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1330] // VINNIE: Payne, we gonna die! We gotta get away from here. To the garage!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1330.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1340] // VINNIE: More of them!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1340.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1350] // VINNIE: Open! Open damn it!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1350.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1360] // VINNIE: Ow man! Close! Close!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1360.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1370] // VINNIE: Payne, get up to the ramp! Quick!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1370.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1380] // VINNIE: Shit, shit, shit! Ow shit!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1380.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1400] // VINNIE: We got away! My car's up ahead!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1400.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dlg_1410] // VINNIE: Cover me, Payne! Clear them out!
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = gognittis_lot\gognittis_lot_dlg_1410.wav;
+		Volume = CHARACTER_SHOUT_VOLUME;
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = CHARACTER_SHOUT_HOTSPOT_LARGE;
+		FallOff = CHARACTER_SHOUT_FALLOFF_LARGE;
+		Streamed = YES;
+		Priority = CHARACTER_SHOUT_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}

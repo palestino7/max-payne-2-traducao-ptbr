@@ -1,0 +1,794 @@
+#include "..\soundid.h"
+
+
+[address_unknown_ep1] // Address Unknown episode 1
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\address_unknown_ep1.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[address_unknown_ep2] // Address Unknown episode 2
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\address_unknown_ep2.wav;
+		Volume = TV_SHOW_VOLUME;	
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[address_unknown_ep3] // Address Unknown episode 3
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\address_unknown_ep3.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[address_unknown_ep4] // Address Unknown episode 4
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\address_unknown_ep4.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[address_unknown_ep5] // Address Unknown episode 5
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\address_unknown_ep5.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[address_unknown_ep6] // Address Unknown episode 6
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\address_unknown_ep6.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[captain_baseballbatboy_ep1] // Captain Baseballbatboy episode 1
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\captain_baseballbatboy_ep1.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[captain_baseballbatboy_ep2] // Captain Baseballbatboy episode 2  -- made the hotspot/falloff and volume higher so the player can hear it --mixuk
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\captain_baseballbatboy_ep2.wav;
+		Volume = 0.75;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = 10;
+		FallOff = 30;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[captain_baseballbatboy_ep3] // Captain Baseballbatboy episode 3
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\captain_baseballbatboy_ep3.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[death_of_winterson] // Death of  Winterson
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\death_of_winterson.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dick_justice_ep1] // Dick Justice episode 1
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\dick_justice_ep1.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[dick_justice_ep2] // Dick Justice episode 2
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\dick_justice_ep2.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[lords_and_ladies_ep1] // Lords and ladies episode 1
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\lords_and_ladies_ep1.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[lords_and_ladies_ep2] // Lords and ladies episode 2
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\lords_and_ladies_ep2.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[lords_and_ladies_ep3] // Lords and ladies episode 3
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\lords_and_ladies_ep3.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[lords_and_ladies_ep4] // Lords and ladies episode 4
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\lords_and_ladies_ep4.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[lords_and_ladies_ep5] // Lords and ladies episode 5
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\lords_and_ladies_ep5.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[lords_and_ladies_ep6] // Lords and ladies episode 6
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\lords_and_ladies_ep6.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[max_heat] // Max Heat
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\max_heat.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[mona_vs_vlad] // Mona vs. Vlad
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\mona_vs_vlad.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[news_1] // News 1
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\news_1.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[news_2] // News 2
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\news_2.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[vlad_tortures_vinnie] // Vlad tortures Vinnie
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\vlad_tortures_vinnie.wav;
+		Volume = TV_SHOW_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_SHOW_HOTSPOT;
+		FallOff = TV_SHOW_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_01_interfectum] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_01_interfectum.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_02_lords_and_ladies] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_02_lords_and_ladies.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_03_castling] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_03_castling.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_04_address_unknown] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_04_address_unknown.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_05_gold_touch_brandy] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_05_gold_touch_brandy.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_06_firearm] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_06_firearm.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_07_max_heat] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_07_max_heat.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_08_vodka] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_08_vodka.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_09_dick_justice] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_09_dick_justice.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_10_cleansing] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_10_cleansing.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_11_captain_baseballbatboy] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_11_captain_baseballbatboy.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_12_brooklyn_school] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_12_brooklyn_school.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
+
+[tv_ad_13_phone_sex] // TV-Shop commercial
+{
+	[Properties] ID = 0;
+	[Default]
+	{
+		[Sound]
+		Filename = TV_Shows\tv_ad_13_phone_sex.wav;
+		Volume = TV_AD_VOLUME;		
+		Random = 0%;
+		3DSound = YES;
+		Hotspot = TV_AD_HOTSPOT;
+		FallOff = TV_AD_FALLOFF;
+		Streamed = YES;
+		Priority = CHARACTER_TALK_PRIORITY;
+		ItemsToCache = 0;
+		FrequencyScaling = FALSE;
+		LipSync = TRUE;
+		EarRadio = FALSE;
+		Dialogue = TRUE;
+	}
+}
