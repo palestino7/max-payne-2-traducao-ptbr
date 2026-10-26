@@ -114,7 +114,7 @@ TRANSLATIONS = {
     "UES_1240_02": "Eu não quero morrer!",
     "UES_1250_01": "Beleza! Bem na hora.",
     "UES_1250_02": "O que esse cara tinha tomado?",
-    "UES_1250_03": "Yuppie engomadinho de Wall Street... o que ele NÃO tinha tomado?",
+    "UES_1250_03": "Yuppie engomadinho de Wall Street... o que ele não tinha tomado?",
     "UES_1250_04": "Muito pó pra subir, nada pra descer.",
     "UES_1250_05": "Sorte que a gente tinha o remédio certo pra acalmar ele.",
     "UES_1250_06": "Exatamente o que o doutor receitou.",

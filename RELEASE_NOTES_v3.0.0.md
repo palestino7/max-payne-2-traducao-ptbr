@@ -26,10 +26,10 @@ Apresentamos a **Versão 3.0.0 Definitiva** da tradução para português do Bra
 
 ### 🔒 Hashes Criptográficos Oficiais (SHA-256):
 ```text
-deefdac54a1cf9a6ed71e91139356b761f03bb9489862ee33d90fe9da1535653  Instalador_MaxPayne2_PTBR_v3.0.0.exe
-1419441f7bd1d9ccde4af072c17d50cf7d3717244e7f16e227366b0b4dcb8f86  Instalador_MaxPayne2_PTBR_v3.0.0.zip
-b834929a4e9927f9777e43220305b0c2a75e0e925450e836dab07d3321425d8a  MaxPayne2_PTBR.mp2m
-932b751be660fedad705e154e78e5bde9a3fa2801a82566e9e346b4d493c05b2  MP2_English_PTBR.ras
+2e9e52f78a898678a9ec3273e24ccf20044fce24f22a33f17946f901fd013bfa  Instalador_MaxPayne2_PTBR_v3.0.0.exe
+5680207fb483c5548662efb16d027dc06e4d0242334d78befc5158bbab928c7f  Instalador_MaxPayne2_PTBR_v3.0.0.zip
+4d1de743fb95b59e229c4f1e4f183384757e49bfd7ea5b61c8e5e848a890b50d  MaxPayne2_PTBR.mp2m
+8c15330d2ed535adf338977aeb031e6d7edb7f6dc37e5429252a2e8f3d63e0ca  MP2_English_PTBR.ras
 ```
 
 ### 🛡️ Relatório Antivírus Oficial (VirusTotal):

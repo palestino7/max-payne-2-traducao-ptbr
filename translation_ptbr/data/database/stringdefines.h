@@ -44,7 +44,7 @@
 #define GCID_CONTROLSU						"CONTROLES"
 #define GCID_MOVEMENT						"Movimentação"
 #define GCID_MOVEMENT_TIP					"Ajusta ou visualiza os comandos de movimentação"
-#define GCID_CHANGEMOVEMENT					"TECLAS DE MOVIMENTAÇÃO"
+#define GCID_CHANGEMOVEMENT					"TECLAS DE MOVIMENTO"
 #define GCID_FORWARD						"Avançar -"
 #define GCID_FORWARD_TIP					"Pressione Delete para limpar / Selecione para alterar o comando de Avançar"
 #define GCID_FORWARD_CHANGE_TIP				"Pressione a nova tecla ou botão de Avançar / ESC para cancelar"

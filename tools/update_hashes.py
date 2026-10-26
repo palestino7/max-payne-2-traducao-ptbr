@@ -22,8 +22,8 @@ hashes = {k: get_sha256(path) for k, path in files.items()}
 sizes = {k: os.path.getsize(path) for k, path in files.items()}
 
 # 1. Update SHA256SUMS.txt
-sha_content = f"""{hashes['exe']}  dist/Instalador_MaxPayne2_PTBR_v3.0.0.exe
-{hashes['zip']}  dist/Instalador_MaxPayne2_PTBR_v3.0.0.zip
+sha_content = f"""{hashes['exe']}  Instalador_MaxPayne2_PTBR_v3.0.0.exe
+{hashes['zip']}  Instalador_MaxPayne2_PTBR_v3.0.0.zip
 {hashes['mp2m']}  MaxPayne2_PTBR.mp2m
 {hashes['ras']}  MP2_English_PTBR.ras
 """

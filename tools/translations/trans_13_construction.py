@@ -73,7 +73,7 @@ TRANSLATIONS = {
     "Construction_1230_02": "Tô cuidando disso. Vou dar a volta até o andaime do outro lado do pátio.",
     "Construction_1240_A": "Mona! Olha onde atira!",
     "Construction_1240_B1": "Mona! O cara de jaqueta de couro na sua mira agora...",
-    "Construction_1240_B2": "...é o único em quem você NÃO deve atirar.",
+    "Construction_1240_B2": "...é o único em quem você não deve atirar.",
     "Construction_1240_C": "Mona! Não tá ajudando em nada!",
     "Construction_1240_D": "Droga, Mona! Para de fazer o serviço deles!",
     "Construction_1250_01": "Max, surgiu um imprevisto. Pode demorar um pouco.",
